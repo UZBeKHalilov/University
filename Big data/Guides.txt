@@ -1,0 +1,27 @@
+Distinct - qaytarilgan ma'lumotlarni faqat bittasini ko'rsatib chiqadi
+
+comparison operation
+logical operators (and, or, not)
+BETWEEN
+IN Operator
+
+#where clause
+
+select * from country
+select * from country where population = 24441
+
+select * from country where Name = Uzbekistan
+
+mustaqillikka 1990 dan keyin chiqgan davlatlar
+select * from country where indepyear > 1990
+
+1990 va 1992 yillar orasida mustaqil bo'lgan davlatlaar (CNG davlatlar)
+select Name from country where iNdepyear between 1990 AND 1992
+
+where continent in('Asia','Africa') and (LifeExpectancy > 70 or GovernmentForm='respublic')
+
+select * from country where Continent in ("Asia", "Europe", "Africa");
+
+# like
+
+where indepyear like '13%' # boshida 13 bo'lsin % bu xar xil sonlar.   like "56_%" boshi 56 bilan boshlanadigan 3 xonali son
