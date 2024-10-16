@@ -1,0 +1,152 @@
+Task 1: Student Attendance Management System
+
+Description: Create an attendance system that stores student names in an array and marks their attendance over several days. Use a do-while loop to collect attendance data for each day and an if statement to validate whether a student is present or absent.
+
+Requirements:
+
+    Use an array of student names.
+    Track attendance (present/absent) for each student over multiple days.
+    At the end, display the total attendance percentage for each student.
+
+
+    
+
+Task 2: Voting System for Class President
+
+Description: Create a voting system where students vote for a class president. The system should accept a list of candidates and then allow students to vote multiple times using an array and do-while loop. Count and display the votes after the election.
+
+Requirements:
+
+    Store candidate names in an array.
+    Use a do-while loop to take votes until all students have voted.
+    Display the winner based on the highest vote count using an if statement.
+
+Task 3: Course Enrollment System
+
+Description: Develop a system to allow students to enroll in courses. Each course can have a maximum capacity. The system should allow students to enroll in available courses using an if statement to check capacity and a do-while loop to take multiple enrollments.
+
+Requirements:
+
+    Use an array to store courses and their available seats.
+    Check course availability before enrolling a student.
+    Print the final list of students enrolled in each course.
+
+Task 4: Gradebook with Array Search
+
+Description: Implement a gradebook that stores students' grades in an array. Allow users to search for a student’s grade and display it. Use a do-while loop for continuous searching and an if statement to validate input.
+
+Requirements:
+
+    Store student names and their corresponding grades in arrays.
+    Search for students by name and display their grade.
+    Allow multiple searches with an option to exit.
+
+Task 5: Bank Account System
+
+Description: Create a banking system where users can deposit and withdraw money from their accounts. Use arrays to store account balances and a do-while loop to process multiple transactions.
+
+Requirements:
+
+    Store account balances in an array.
+    Use if statements to validate withdrawal amounts and check if sufficient funds are available.
+    Allow multiple transactions until the user exits the system.
+
+Task 6: Employee Payroll System
+
+Description: Create a payroll system that calculates the salary of multiple employees based on their hourly rate and hours worked. Use an array to store employee details and a do-while loop to compute payroll for each employee.
+
+Requirements:
+
+    Store employee names, hourly rates, and hours worked in arrays.
+    Calculate and display the salary for each employee.
+    Handle multiple employees in the system.
+
+Task 7: Library Management System
+
+Description: Create a simple library management system where students can borrow and return books. Use an array to store the list of available books and a do-while loop to process borrowing and returning operations.
+
+Requirements:
+
+    Store book titles in an array.
+    Use if statements to check if a book is available or already borrowed.
+    Display the list of borrowed books and available books after each transaction.
+
+Task 8: Inventory Tracking System
+
+Description: Develop an inventory management system where users can add, update, or remove products from an inventory. Use arrays to store product names and quantities, and allow multiple transactions using a do-while loop.
+
+Requirements:
+
+    Store product names and their quantities in arrays.
+    Allow users to add new products, update quantities, or remove products.
+    Display the updated inventory list after each operation.
+
+Task 9: Quiz Application
+
+Description: Create a quiz system where students answer multiple-choice questions. Track the number of correct and incorrect answers using an array for the questions and answers, and a do-while loop for continuous quizzing.
+
+Requirements:
+
+    Store questions and multiple-choice options in arrays.
+    Use if statements to check if the selected answer is correct.
+    Display the student’s score at the end of the quiz.
+
+Task 10: To-Do List Application
+
+Description: Create a to-do list application that allows users to add, remove, and mark tasks as complete. Use arrays to store tasks and a do-while loop to handle multiple operations.
+
+Requirements:
+
+    Store tasks in an array.
+    Allow users to add new tasks, remove tasks, or mark tasks as completed.
+    Display the to-do list with completed and pending tasks after each operation.
+
+Task 11: Weather Forecasting System
+
+Description: Create a weather forecasting system where users can enter temperature data for several days and the system will calculate the average temperature. Use arrays to store temperatures and a do-while loop to gather data.
+
+Requirements:
+
+    Store temperatures for multiple days in an array.
+    Calculate and display the average temperature after all data is entered.
+    Use if statements to validate temperature input (e.g., ensuring it's within a realistic range).
+
+Task 12: Flight Booking System
+
+Description: Create a flight booking system where users can book seats on different flights. Use arrays to store available seats and a do-while loop to handle multiple bookings.
+
+Requirements:
+
+    Store flights and their available seats in arrays.
+    Use if statements to check if seats are available before booking.
+    Display the list of available seats after each booking.
+
+Task 13: Hotel Reservation System
+
+Description: Create a hotel reservation system where users can book rooms. Use arrays to store room availability and a do-while loop to process multiple bookings.
+
+Requirements:
+
+    Store room numbers and availability status in arrays.
+    Allow users to book or cancel a reservation using if statements to validate input.
+    Display the current room availability after each operation.
+
+Task 14: Student Report Card Generator
+
+Description: Develop a report card generator that calculates the final grades for students based on their performance in multiple subjects. Use arrays to store subject marks and a do-while loop to calculate the final grade.
+
+Requirements:
+
+    Store subject names and marks in arrays.
+    Calculate the average grade for each student.
+    Display the student’s final grade with remarks (e.g., Pass/Fail) using if statements.
+
+Task 15: Movie Ticket Booking System
+
+Description: Create a movie ticket booking system where users can book seats for a movie. Use arrays to track seat availability and a do-while loop to process multiple bookings.
+
+Requirements:
+
+    Store seat numbers and availability status in an array.
+    Use if statements to check if a seat is available before booking.
+    Display the updated list of available seats after each booking.
