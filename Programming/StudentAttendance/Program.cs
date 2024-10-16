@@ -18,10 +18,18 @@ namespace StudentAttendance
     {
         static void Main(string[] args)
         {
-            string connectionString = "Server=localhost;Database=ProductDB;Trusted_Connection=True;";
+            Console.WriteLine("Welcome to Student Attendance!");
+
+            StudentDB();
+        }
+
+        static void StudentDB()
+        {
+
+            string connectionString = $"Server=localhost;Database=StudentDB;User Id=sa;Password={MyKeys.SqlKey};TrustServerCertificate=True;";
 
             // SQL query to get product list
-            string query = "SELECT ProductID, ProductName, Price FROM Products";
+            string query = "SELECT * FROM Student";
 
             // Create a connection
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -41,20 +49,19 @@ namespace StudentAttendance
                     // Check if there are rows
                     if (reader.HasRows)
                     {
-                        Console.WriteLine("Product List:");
+                        Console.WriteLine("Students List:");
                         Console.WriteLine("-----------------------------------");
 
                         // Loop through the data and display the products
                         while (reader.Read())
                         {
-                            Console.WriteLine($"Product ID: {reader["ProductID"]}, " +
-                                              $"Product Name: {reader["ProductName"]}, " +
-                                              $"Price: {reader["Price"]}");
+                            Console.WriteLine($"Student ID: {reader["StudentID"]}, " +
+                                              $"Product Name: {reader["StudentName"]}" );
                         }
                     }
                     else
                     {
-                        Console.WriteLine("No products found.");
+                        Console.WriteLine("No Students found.");
                     }
 
                     // Close the reader
@@ -71,6 +78,7 @@ namespace StudentAttendance
                     Console.WriteLine("Connection to database closed.");
                 }
             }
+
         }
     }
 }
