@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\bin\Debug\net8.0\SelfStudy.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\bin\Debug\net8.0\SelfStudy.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\bin\Debug\net8.0\SelfStudy.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\bin\Debug\net8.0\SelfStudy.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\bin\Debug\net8.0\SelfStudy.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\refint\SelfStudy.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\SelfStudy.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\SelfStudy\obj\Debug\net8.0\ref\SelfStudy.dll

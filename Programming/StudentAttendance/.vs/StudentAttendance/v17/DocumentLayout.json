@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\StudentAttendance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4754066C-BB16-4F2B-9C58-4E939AC2C809}|StudentAttendance.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\studentattendance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4754066C-BB16-4F2B-9C58-4E939AC2C809}|StudentAttendance.csproj|C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\StudentAttendance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4754066C-BB16-4F2B-9C58-4E939AC2C809}|StudentAttendance.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "MyKeys.cs",
               "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\StudentAttendance\\MyKeys.cs",
               "RelativeToolTip": "MyKeys.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:45:53.264Z",
+              "WhenOpened": "2024-10-17T13:15:17.599Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\StudentAttendance\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA4AAAAAeWZmZmYUwBcAAAAJAAAA",
+              "ViewState": "AQIAAEAAAABAAAAAAMAuwFMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T16:30:35.82Z",
               "EditorCaption": ""

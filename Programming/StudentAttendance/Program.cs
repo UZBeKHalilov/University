@@ -25,11 +25,35 @@ namespace StudentAttendance
 
         static void StudentDB()
         {
+            Console.WriteLine("\n\nChoose:\n" +
+                "1 - Show all students\n" +
+                "2 - Show students attendance\n" +
+                "other - EXIT");
 
-            string connectionString = $"Server=localhost;Database=StudentDB;User Id=sa;Password={MyKeys.SqlKey};TrustServerCertificate=True;";
+            switch (Console.ReadLine())
+            {
+                case "1":
+                       ShowAllStudents();
+                    break;
+
+                case "2":
+                        ShowStudentsAttendance();
+                    break;
+                default:
+                    Console.WriteLine("\n\n Good bye!!!\n\n");
+                    Environment.Exit(0);
+                    break;
+            }
+
+            StudentDB();
+        }
+
+        static void ShowAllStudents()
+        {
+            string connectionString = MyKeys.GetSqlConnectionString();
 
             // SQL query to get product list
-            string query = "SELECT * FROM Student";
+            string query = "SELECT * FROM Students";
 
             // Create a connection
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -56,7 +80,7 @@ namespace StudentAttendance
                         while (reader.Read())
                         {
                             Console.WriteLine($"Student ID: {reader["StudentID"]}, " +
-                                              $"Product Name: {reader["StudentName"]}" );
+                                              $"Student Name: {reader["StudentName"]}" );
                         }
                     }
                     else
@@ -66,6 +90,59 @@ namespace StudentAttendance
 
                     // Close the reader
                     reader.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
+                finally
+                {
+                    // Close the connection
+                    connection.Close();
+                    Console.WriteLine("Connection to database closed.");
+                }
+            }
+
+        }
+    
+        static void ShowStudentsAttendance() 
+        {
+            string connectionString = MyKeys.GetSqlConnectionString();
+
+            // SQL query to get product list
+            string studentsQuery = "SELECT StudentID, StudentName FROM Students";
+            string attendanceQuery = "SELECT * FROM Attendance";
+
+            // Create a connection
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    // Open the connection
+                    connection.Open();
+                    Console.WriteLine("Connection to database opened.");
+
+                    // Create a command to execute the query
+                    SqlCommand studentsCommand = new SqlCommand(studentsQuery, connection);
+                    SqlCommand attendanceCommand = new SqlCommand(attendanceQuery, connection);
+
+                    // Execute the query and read the results
+                    SqlDataReader studentsTableReader = studentsCommand.ExecuteReader();
+                    SqlDataReader attendanceTableReader = attendanceCommand.ExecuteReader();
+
+                    // Check if there are rows
+                    
+                    if (!studentsTableReader.HasRows)
+                    {
+                        Console.WriteLine("No students found!");
+                        return;
+                    }
+
+
+
+                    // Close the reader
+                    studentsTableReader.Close();
+                    attendanceTableReader.Close();
                 }
                 catch (Exception ex)
                 {

@@ -10,9 +10,9 @@ namespace StudentAttendance
     {
         private static string SqlPassword = "KHalilov#0548";
 
-        public static string SqlKey()
+        public static string GetSqlConnectionString()
         {
-            return SqlPassword;
+            return $"Server=localhost;Database=StudentDB;User Id=sa;Password={SqlPassword};TrustServerCertificate=True;" ;
         }
     }
 }
