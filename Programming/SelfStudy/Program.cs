@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System.Globalization;
+using System.Xml.Serialization;
 
 namespace SelfStudy
 {
@@ -7,9 +8,12 @@ namespace SelfStudy
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Programs");
-            Choose();
+            //Choose();
+            ThemeNULL();
 
         }
+
+        #region October 18 20024
 
         static void Choose()
         {
@@ -124,6 +128,24 @@ namespace SelfStudy
             ConsoleKey key = Console.ReadKey().Key;
             Console.WriteLine();
             return key;
+        }
+
+        #endregion
+
+        static void ThemeNULL()
+        {
+            string name = "Abdulloh";
+
+            isChanging(ref name);
+
+            Console.WriteLine($"My name is {name}");
+        }
+
+        static void isChanging(ref string value)
+        {
+            string result = value + " Halilov";
+            Console.WriteLine(result);
+            
         }
     }
 }
