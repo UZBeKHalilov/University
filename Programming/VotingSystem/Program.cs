@@ -26,76 +26,178 @@
 
 using Microsoft.Data.SqlClient;
 
-namespace VotingSystem
+namespace VotingCandidatesSystem
 {
     internal class Program
     {
         static private readonly string SqlKey = "Server=localhost;Database=StudentDB;User Id=sa;Password=KHalilov#0548;TrustServerCertificate=True;";
-      
+
         static void Main(string[] args)
         {
-            string connectionString = SqlKey;
-            SqlConnection connection = new SqlConnection(connectionString);
 
-            int totalStudents = 5; // Talabalar soni
-            int[] votes = new int[totalStudents]; // Ovozlar uchun massiv
-            int vote;
-            int numberOfVotes = 0;
+            Console.WriteLine("Welcome to Voting Candidates System!\n");
 
-            // Ovoz berish jarayoni
-            do
+            VotingCandidates();
+        }
+
+        static void VotingCandidates()
+        {
+
+            #region Collecting data from database
+
+            SqlConnection connection = new SqlConnection(SqlKey);
+
+            var candidatesDict = new Dictionary<int, string>();
+            var votesDict = new Dictionary<int, int>();
+
+            int votingByConsole;
+            int countOfStudents;
+
+            try
             {
-                Console.WriteLine("Ovoz berish uchun nomzodlar:");
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand("SELECT COUNT(StudentID) FROM Students", connection))
+                {                    
+                    countOfStudents = Convert.ToInt32(command.ExecuteScalar());
+                }
+
                 using (SqlCommand command = new SqlCommand("SELECT * FROM Candidates", connection))
                 {
-                    connection.Open();
                     SqlDataReader reader = command.ExecuteReader();
                     while (reader.Read())
                     {
-                        Console.WriteLine($"{reader["CandidateID"]}: {reader["CandidateName"]}");
+                        int candidateId = Convert.ToInt32(reader["CandidateID"]);
+
+                        string candidateName = reader["CandidateName"].ToString() ?? "No Name";
+
+
+                        candidatesDict.Add(candidateId, candidateName);
+                        votesDict.Add(candidateId, 0);
                     }
+
                     connection.Close();
                 }
 
-                Console.Write("Ovoz berish uchun nomzod ID raqamini kiriting (0 orqali tugatish): ");
-                vote = Convert.ToInt32(Console.ReadLine());
-
-                if (vote > 0)
-                {
-                    votes[numberOfVotes] = vote;
-                    numberOfVotes++;
-                }
-
-            } while (vote != 0 && numberOfVotes < totalStudents);
-
-            // Ovozlarni sanash
-            int[] voteCounts = new int[3]; // Nomzodlar soni bo'yicha
-
-            foreach (var v in votes)
+            }
+            catch (Exception ex)
             {
-                if (v > 0)
-                {
-                    voteCounts[v - 1]++;
-                }
+                Console.WriteLine(ex);
+                throw;
+            }
+            finally
+            {
+                connection.Close();
             }
 
-            // Natijalarni ko'rsatish
+            #endregion
+
+            #region Voting candidates
+
+            foreach (var candidate in candidatesDict)
+            {
+                Console.WriteLine($"ID {candidate.Key}: {candidate.Value}");
+            }
+
+            do
+            {
+                Console.WriteLine("Enter Candidate ID to vote (0 or empty for exit):");
+
+                votingByConsole = int.Parse(Console.ReadLine() ?? "0");
+
+                if (votesDict.ContainsKey(votingByConsole))
+                {
+                    votesDict[votingByConsole]++;
+                    Console.WriteLine($"Voted to {candidatesDict[votingByConsole]}");
+                }
+                else
+                {
+                    Console.WriteLine("No such candidate, please re-enter.");
+                }
+
+            } while (votingByConsole != 0 && !votesDict.Any(v => v.Value > countOfStudents));
+            
+            Console.WriteLine("\nVoting is over!\n");
+
+            #endregion
+
+            #region Showing result
+
             int maxVotes = 0;
-            int winnerId = -1;
+            int winner = -1;
 
-            for (int i = 0; i < voteCounts.Length; i++)
+            foreach (var entry in votesDict)
             {
-                if (voteCounts[i] > maxVotes)
+                if (entry.Value > maxVotes)
                 {
-                    maxVotes = voteCounts[i];
-                    winnerId = i + 1;
+                    maxVotes = entry.Value;
+                    winner = entry.Key;
                 }
             }
 
-            if (winnerId != -1)
+            // Natijani chiqarish
+            if (winner != -1)
             {
-                Console.WriteLine($"G'olib: {winnerId} raqamli nomzod");
+                Console.WriteLine($"The winner: {candidatesDict[winner]} (Votes: {maxVotes})");
             }
+            else
+            {
+                Console.WriteLine("Winner not found!.");
+            }
+
+
+            Console.WriteLine("\nResults");
+            foreach (var candidate in candidatesDict)
+            {
+                if (votesDict.TryGetValue(candidate.Key, out int voteCount))
+                {
+                    Console.WriteLine($"Candidate name: {candidate.Value}, Votes: {voteCount}");
+                }
+            }
+
+            #endregion
+
+            #region Being saved to Database
+            try
+            {
+                connection.Open();
+                foreach (var candidate in candidatesDict)
+                {
+                    if (votesDict.TryGetValue(candidate.Key, out int voteCount))
+                    {
+                        string query = "UPDATE Candidates SET CandidateName = @CandidateName, VoteCount = @VoteCount, LastVoted = @LastVoted WHERE CandidateID = @CandidateID";
+
+                        using (SqlCommand command = new SqlCommand(query, connection))
+                        {
+                            command.Parameters.AddWithValue("@CandidateID", candidate.Key);
+                            command.Parameters.AddWithValue("@CandidateName", candidate.Value);
+                            command.Parameters.AddWithValue("@VoteCount", voteCount);
+                            command.Parameters.AddWithValue("@LastVoted", DateTime.Now);
+
+                            int rowsAffected = command.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                Console.WriteLine($"Candidate ID {candidate.Key} yangilandi.");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Candidate ID {candidate.Key} topilmadi.");
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            #endregion
         }
     }
 }

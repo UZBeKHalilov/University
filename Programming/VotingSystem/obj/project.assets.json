@@ -1692,9 +1692,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingSystem.csproj",
-      "projectName": "VotingSystem",
-      "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingCandidatesSystem.csproj",
+      "projectName": "VotingCandidatesSystem",
+      "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingCandidatesSystem.csproj",
       "packagesPath": "C:\\Users\\Abdulloh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\obj\\",
       "projectStyle": "PackageReference",
