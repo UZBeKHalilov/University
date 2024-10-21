@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\CourseEnrollmentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{897D1DC7-0EC0-488F-A1D7-81619545E4C1}|CourseEnrollmentSystem.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\courseenrollmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897D1DC7-0EC0-488F-A1D7-81619545E4C1}|CourseEnrollmentSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\CourseEnrollmentSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\CourseEnrollmentSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAYwGEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:02:08.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

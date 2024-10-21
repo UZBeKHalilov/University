@@ -21,6 +21,7 @@ Requirements:
     Use a do-while loop to take votes until all students have voted.
     Display the winner based on the highest vote count using an if statement.
 
+
 Task 3: Course Enrollment System
 
 Description: Develop a system to allow students to enroll in courses. Each course can have a maximum capacity. The system should allow students to enroll in available courses using an if statement to check capacity and a do-while loop to take multiple enrollments.
