@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F84C2907-0C2E-4580-BA25-8870D239F0EF}|VotingCandidatesSystem.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\votingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F84C2907-0C2E-4580-BA25-8870D239F0EF}|VotingCandidatesSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F84C2907-0C2E-4580-BA25-8870D239F0EF}|VotingSystem.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\votingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84C2907-0C2E-4580-BA25-8870D239F0EF}|VotingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,14 +24,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAADQzMzMzAwkwCMAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwBwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T12:48:13.096Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

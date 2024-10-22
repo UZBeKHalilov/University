@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingCandidatesSystem.csproj": {}
+    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Bank Account System\\Bank Account System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingCandidatesSystem.csproj": {
+    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Bank Account System\\Bank Account System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingCandidatesSystem.csproj",
-        "projectName": "VotingCandidatesSystem",
-        "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\VotingCandidatesSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Bank Account System\\Bank Account System.csproj",
+        "projectName": "Bank Account System",
+        "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Bank Account System\\Bank Account System.csproj",
         "packagesPath": "C:\\Users\\Abdulloh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\VotingSystem\\obj\\",
+        "outputPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Bank Account System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdulloh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +44,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.2.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -67,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

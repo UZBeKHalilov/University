@@ -75,6 +75,7 @@ namespace VotingCandidatesSystem
                         candidatesDict.Add(candidateId, candidateName);
                         votesDict.Add(candidateId, 0);
                     }
+                    // 
 
                     connection.Close();
                 }

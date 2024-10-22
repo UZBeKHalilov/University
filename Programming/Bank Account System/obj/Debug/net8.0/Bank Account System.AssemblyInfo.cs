@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VotingCandidatesSystem")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Bank Account System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20e2b8ac1bc637ef3d53e15d464e96b7b6d958bb")]
-[assembly: System.Reflection.AssemblyProductAttribute("VotingCandidatesSystem")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VotingCandidatesSystem")]
+[assembly: System.Reflection.AssemblyProductAttribute("Bank Account System")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Bank Account System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
