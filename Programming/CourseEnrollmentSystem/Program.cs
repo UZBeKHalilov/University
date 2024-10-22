@@ -30,6 +30,13 @@ namespace CourseEnrollmentSystem
     internal class CourseEnrollmentSystem
     {
         static private readonly string SqlKey = "Server=localhost;Database=StudentDB;User Id=sa;Password=KHalilov#0548;TrustServerCertificate=True;";
+        struct Course
+        {
+            public string CourseName;
+            public int MaxCapacity;
+            public int CurrentEnrollment;
+        }
+
         static void Main()
         {
 
@@ -38,141 +45,63 @@ namespace CourseEnrollmentSystem
     
         static void CourseEntrollment()
         {
-          
-            #region Collecting data from database
-            SqlConnection connection = new SqlConnection(SqlKey);
+            Course[] courses = new Course[]
+              {
+                new Course { CourseName = "Software Engineering", MaxCapacity = 5, CurrentEnrollment = 0 },
+                new Course { CourseName = "Artificial Intelligence", MaxCapacity = 5, CurrentEnrollment = 0 },
+                new Course { CourseName = "Big Data", MaxCapacity = 5, CurrentEnrollment = 0 },
+                new Course { CourseName = "Business Process Management", MaxCapacity = 5, CurrentEnrollment = 0 }
+              };
 
-            int[] maxCapacity = { 2, 3, 1 }; 
-            string[][] enrolledStudents = new string[maxCapacity.Length][];
-            int[] currentEnrollment = new int[maxCapacity.Length]; 
+            // Array to store student names
+            string[] students = new string[100];
+            int studentCount = 0;
 
-            int courseCount = 0;
-
-            using (connection)
-            {
-                try
-                {
-                    connection.Open();
-
-                    using (SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM Courses", connection))
-                    {
-                        courseCount = (int)command.ExecuteScalar(); // Get the number of courses
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("An error occurred: " + ex.Message);
-                    return;
-                }
-                finally
-                {
-                    connection.Close();
-                }
-            }
-
-            string[] courses = new string[courseCount];
-
-            using (connection)
-            {
-                try
-                {
-                    connection.Open();
-
-                    using (SqlCommand command = new SqlCommand("SELECT CourseName FROM Courses", connection))
-                    {
-                        SqlDataReader reader = command.ExecuteReader();
-                        int index = 0;
-
-                        while (reader.Read())
-                        {
-                            courses[index] = reader["CourseName"].ToString(); // Populate the array
-                            index++;
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("An error occurred: " + ex.Message);
-                }
-                finally
-                {
-                    connection.Close();
-                }
-            }
-
-            // Example output to verify courses are loaded
-            Console.WriteLine("Courses available:");
-            foreach (var course in courses)
-            {
-                Console.WriteLine(course);
-            }
-
-            #endregion
-
-            // Define courses and their maximum capacity
-
-            // Initialize enrolled students arrays
-            for (int i = 0; i < courses.Length; i++)
-            {
-                enrolledStudents[i] = new string[maxCapacity[i]];
-            }
-
-            // Initialize the continueEnrollment variable
-            string continueEnrollment = "yes"; // Default value to enter the loop
+            // Enrollment loop
+            string enrollMore = "y";
             do
             {
+                Console.WriteLine("Enter student name: ");
+                string studentName = Console.ReadLine();
+
+                // Display available courses
                 Console.WriteLine("Available Courses:");
                 for (int i = 0; i < courses.Length; i++)
                 {
-                    Console.WriteLine($"{i + 1}. {courses[i]} (Available Seats: {maxCapacity[i] - currentEnrollment[i]})");
+                    Console.WriteLine($"{i + 1}. {courses[i].CourseName} - Capacity: {courses[i].CurrentEnrollment}/{courses[i].MaxCapacity}");
                 }
 
-                Console.Write("Select a course by number (1-3): ");
-                int courseIndex = Convert.ToInt32(Console.ReadLine()) - 1;
+                // Select course
+                Console.WriteLine("Select a course number to enroll in:");
+                int courseNumber = Convert.ToInt32(Console.ReadLine()) - 1;
 
-                if (courseIndex < 0 || courseIndex >= courses.Length)
+                // Check if the course is full
+                if (courses[courseNumber].CurrentEnrollment < courses[courseNumber].MaxCapacity)
                 {
-                    Console.WriteLine("Invalid course selection. Please try again.");
-                    continue;
-                }
-
-                // Check if there are available seats in the selected course
-                if (currentEnrollment[courseIndex] < maxCapacity[courseIndex])
-                {
-                    Console.Write("Enter student name: ");
-                    string studentName = Console.ReadLine();
-
                     // Enroll the student
-                    enrolledStudents[courseIndex][currentEnrollment[courseIndex]] = studentName;
-                    currentEnrollment[courseIndex]++;
-                    Console.WriteLine($"{studentName} has been enrolled in {courses[courseIndex]}.");
+                    courses[courseNumber].CurrentEnrollment++;
+                    students[studentCount++] = studentName;
+                    Console.WriteLine($"{studentName} has been enrolled in {courses[courseNumber].CourseName}.");
                 }
                 else
                 {
-                    Console.WriteLine($"Sorry, {courses[courseIndex]} is full. No available seats.");
+                    Console.WriteLine("Sorry, the course is full. Please choose a different course.");
                 }
 
-                Console.Write("Do you want to enroll another student? (yes/no): ");
-                continueEnrollment = Console.ReadLine().ToLower();
+                // Ask if the user wants to enroll more students
+                Console.WriteLine("Do you want to enroll another student? (y/n)");
+                enrollMore = Console.ReadLine();
 
-            } while (continueEnrollment == "yes");
+            } while (enrollMore.ToLower() == "y");
 
-            // Print final list of enrolled students in each course
+            // Print final enrollment list
             Console.WriteLine("\nFinal Enrollment List:");
             for (int i = 0; i < courses.Length; i++)
             {
-                Console.WriteLine($"\n{courses[i]}: ");
-                for (int j = 0; j < currentEnrollment[i]; j++)
-                {
-                    Console.WriteLine($"- {enrolledStudents[i][j]}");
-                }
-
-                if (currentEnrollment[i] == 0)
-                {
-                    Console.WriteLine("No students enrolled.");
-                }
+                Console.WriteLine($"{courses[i].CourseName}: {courses[i].CurrentEnrollment}/{courses[i].MaxCapacity}");
             }
         }
+    }
     }
 
 
