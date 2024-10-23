@@ -1,16 +1,6 @@
-﻿/*
- Task 4: Gradebook with Array Search
-
-Description: Implement a gradebook that stores students' grades in an array. Allow users to search for a student’s grade and display it. Use a do-while loop for continuous searching and an if statement to validate input.
-
-Requirements:
-
-    Store student names and their corresponding grades in arrays.
-    Search for students by name and display their grade.
-    Allow multiple searches with an option to exit.
-*/
-
-using System;
+﻿using System;
+using System.Collections.Generic; // For List<T>
+using Microsoft.Data.SqlClient;
 
 namespace GradebookSystem
 {
@@ -18,10 +8,58 @@ namespace GradebookSystem
     {
         static void Main(string[] args)
         {
-            // Arrays to store student names and their corresponding grades
-            string[] studentNames = { "Abdulloh", "Miraziz", "Azamat", "Toshmat" };
-            int[] studentGrades = { 85, 90, 78, 92 };
+            Gradebook();
+        }
 
+        static void Gradebook()
+        {
+            #region Database connection
+            // SQL connection string
+            SqlConnection connection = new SqlConnection("Server=localhost;Database=StudentDB;User Id=sa;Password=KHalilov#0548;TrustServerCertificate=True;");
+            #endregion
+
+            #region Initialize lists to store student names and grades
+            // Lists to store student names and their corresponding grades
+            List<string> studentNames = new List<string>();
+            List<int> studentGrades = new List<int>();
+            #endregion
+
+            #region Collect data from the database
+            try
+            {
+                // Open connection to the database
+                connection.Open();
+
+                // Write the SQL query to join Students and Grades
+                using (var command = new SqlCommand("SELECT s.StudentName, g.Grade FROM Students s JOIN Grades g ON s.StudentID = g.StudentID", connection))
+                {
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    // Read data from the query result
+                    while (reader.Read())
+                    {
+                        // Fetch student name and grade
+                        string studentName = reader["StudentName"].ToString();
+                        int grade = Convert.ToInt32(reader["Grade"]);
+
+                        // Add the fetched data to the respective lists
+                        studentNames.Add(studentName);
+                        studentGrades.Add(grade);
+                    }
+                }
+
+                // Close the database connection after fetching the data
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return; // Stop the program in case of an error
+            }
+            #endregion
+
+            #region Search functionality
+            // Do-while loop to allow continuous searching
             string searchMore = "y";  // To control the do-while loop
 
             do
@@ -33,8 +71,8 @@ namespace GradebookSystem
                 // Flag to check if the student is found
                 bool studentFound = false;
 
-                // Search for the student in the array
-                for (int i = 0; i < studentNames.Length; i++)
+                // Search for the student in the list
+                for (int i = 0; i < studentNames.Count; i++)
                 {
                     if (studentNames[i].Equals(studentName, StringComparison.OrdinalIgnoreCase))
                     {
@@ -58,6 +96,7 @@ namespace GradebookSystem
             } while (searchMore.ToLower() == "y");
 
             Console.WriteLine("Exiting the gradebook system. Goodbye!");
+            #endregion
         }
     }
 }
