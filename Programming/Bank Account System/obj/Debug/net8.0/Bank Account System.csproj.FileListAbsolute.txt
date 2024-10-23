@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\bin\Debug\net8.0\Bank Account System.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\bin\Debug\net8.0\Bank Account System.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\bin\Debug\net8.0\Bank Account System.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\bin\Debug\net8.0\Bank Account System.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\bin\Debug\net8.0\Bank Account System.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\refint\Bank Account System.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\Bank Account System.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Bank Account System\obj\Debug\net8.0\ref\Bank Account System.dll
