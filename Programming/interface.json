@@ -1,0 +1,30 @@
+Task 1: Basic Interface Implementation
+
+Create an interface IVehicle with methods StartEngine and StopEngine. Implement this interface in two classes: Car and Motorcycle. Instantiate both classes and call their methods directly.
+Task 2: Interface Inheritance
+
+Create an interface IAnimal with a method MakeSound. Then, create another interface IFlyable that inherits from IAnimal and adds a Fly method. Implement both interfaces in a Bird class. Create an instance of Bird and call both methods.
+Task 3: Polymorphism with Interfaces
+
+Create an interface IShape with a method GetArea. Implement it in two classes: Circle and Rectangle. Write a method that takes a list of IShape and iterates over it, calling GetArea on each shape.
+Task 4: Multiple Interface Implementation
+
+Create two interfaces IReadable and IWriteable with methods Read() and Write(). Implement both interfaces in a class Document and show how you can use both methods on a Document object.
+Task 5: Interface with Properties
+
+Create an interface IPerson with properties Name and Age. Implement it in a Student class. Create a method that prints the name and age of the student using the IPerson interface.
+Task 6: Interface as a Method Parameter (No Dependency Injection)
+
+Create an interface ICalculator with a method Calculate(int a, int b). Implement it in two classes: Addition and Subtraction. Write a method PerformCalculation that accepts an ICalculator object and performs the calculation. Call this method by passing an instance of Addition or Subtraction.
+Task 7: Multiple Interfaces with Different Implementations
+
+Create interfaces IDriveable and IFlyable, each with its own methods. Implement both interfaces in a class FlyingCar and demonstrate calling both driving and flying methods on the same object.
+Task 8: Interface for Sorting
+
+Create an interface IComparableItem with a method CompareTo. Implement this in a class Product and sort a list of Product objects using this method.
+Task 9: Interface for Event Simulation
+
+Create an interface IClickable with a method Click(). Implement it in a class Button and another class Hyperlink. Write a method SimulateClick that accepts an IClickable object and calls the Click method. Call this method by passing instances of Button and Hyperlink.
+Task 10: Interface for File Operations
+
+Create an interface IFileOperation with methods ReadFile and WriteFile. Implement it in a class TextFileOperation. Write a program that reads from and writes to text files using this interface without dependency injection.
