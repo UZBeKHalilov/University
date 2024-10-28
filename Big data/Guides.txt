@@ -25,3 +25,19 @@ select * from country where Continent in ("Asia", "Europe", "Africa");
 # like
 
 where indepyear like '13%' # boshida 13 bo'lsin % bu xar xil sonlar.   like "56_%" boshi 56 bilan boshlanadigan 3 xonali son
+
+
+
+# if
+
+select LifeExpectansy if(LifeExpectansy> 50, good,bad) from country
+
+# case
+
+select LifeExpectansy,
+case
+when LifeExpectansy < 50 then 'bad'
+when LifeExpectansy between 50 and 60 then 'not bad'
+when LifeExpectansy > 60 then 'good'
+end
+from country where region 'Asia'
