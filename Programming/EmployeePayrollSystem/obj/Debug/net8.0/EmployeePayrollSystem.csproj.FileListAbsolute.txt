@@ -1,0 +1,14 @@
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\bin\Debug\net8.0\EmployeePayrollSystem.exe
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\bin\Debug\net8.0\EmployeePayrollSystem.deps.json
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\bin\Debug\net8.0\EmployeePayrollSystem.runtimeconfig.json
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\bin\Debug\net8.0\EmployeePayrollSystem.dll
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\bin\Debug\net8.0\EmployeePayrollSystem.pdb
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\EmployeePayrollSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\EmployeePayrollSystem.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\EmployeePayrollSystem.AssemblyInfo.cs
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\EmployeePayrollSystem.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\EmployeePayrollSystem.dll
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\refint\EmployeePayrollSystem.dll
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\EmployeePayrollSystem.pdb
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\EmployeePayrollSystem.genruntimeconfig.cache
+C:\Users\Abdulloh\source\repos\EmployeePayrollSystem\obj\Debug\net8.0\ref\EmployeePayrollSystem.dll

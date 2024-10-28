@@ -1,0 +1,14 @@
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\Library Managment System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\Library Managment System.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\Library Managment System.AssemblyInfo.cs
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\Library Managment System.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\source\repos\Library Managment System\bin\Debug\net8.0\Library Managment System.exe
+C:\Users\Abdulloh\source\repos\Library Managment System\bin\Debug\net8.0\Library Managment System.deps.json
+C:\Users\Abdulloh\source\repos\Library Managment System\bin\Debug\net8.0\Library Managment System.runtimeconfig.json
+C:\Users\Abdulloh\source\repos\Library Managment System\bin\Debug\net8.0\Library Managment System.dll
+C:\Users\Abdulloh\source\repos\Library Managment System\bin\Debug\net8.0\Library Managment System.pdb
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\Library Managment System.dll
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\refint\Library Managment System.dll
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\Library Managment System.pdb
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\Library Managment System.genruntimeconfig.cache
+C:\Users\Abdulloh\source\repos\Library Managment System\obj\Debug\net8.0\ref\Library Managment System.dll
