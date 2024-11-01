@@ -10,13 +10,14 @@ namespace Abstract
     {
         public abstract void TurnOn();
 
-        public void TurnOff()
+        public virtual void TurnOff()
         {
             Console.WriteLine("turned off.");
         }
     }
     public class WashingMachine : Appliance
     {
+        
         public override void TurnOn()
         {
             Console.WriteLine("Washing Machine is now turned on. Ready to wash clothes.");
@@ -30,7 +31,7 @@ namespace Abstract
             Console.WriteLine("Air Conditioner is now turned on. Cooling the room.");
         }
 
-        public void TurnOff()
+        public ov void TurnOff()
         {
             Console.WriteLine("turned off the Air Conditioner.");
         }

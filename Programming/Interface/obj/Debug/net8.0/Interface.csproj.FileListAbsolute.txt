@@ -12,3 +12,11 @@ C:\Users\Abdulloh\source\repos\Interface\obj\Debug\net8.0\refint\Interface.dll
 C:\Users\Abdulloh\source\repos\Interface\obj\Debug\net8.0\Interface.pdb
 C:\Users\Abdulloh\source\repos\Interface\obj\Debug\net8.0\Interface.genruntimeconfig.cache
 C:\Users\Abdulloh\source\repos\Interface\obj\Debug\net8.0\ref\Interface.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\Interface.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\Interface.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\Interface.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\Interface.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\refint\Interface.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Interface\obj\Debug\net8.0\Interface.pdb

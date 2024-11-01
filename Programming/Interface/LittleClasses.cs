@@ -198,17 +198,22 @@ namespace Interface
 
     public class Button : IClickable
     {
+        private int x = 1;
+        private int y = 2;
         public void Click()
         {
-            Console.WriteLine("Button has been clicked!");
+            Console.WriteLine($"Button has been clicked!{x} and {y}");
         }
     }
 
     public class Hyperlink : IClickable
     {
+        private int x = 0;
+        private int y = 0;
+        
         public void Click()
         {
-            Console.WriteLine("Hyperlink has been clicked!");
+            Console.WriteLine($"Hyperlink has been clicked! {x} and {y}");
         }
     }
 

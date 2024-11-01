@@ -54,11 +54,17 @@ namespace Abstract
     {
         static void Main(string[] args)
         {
-            Animals Dog = new Dog();
-            Dog.MakeSound();
+            //Animals Dog = new Dog();
+            //Dog.MakeSound();
 
-            Animals Cat = new Cat();
-            Cat.MakeSound();
+            //Animals Cat = new Cat();
+            //Cat.MakeSound();
+
+            var wash = new WashingMachine();
+            wash.TurnOff();
+
+            Appliance konditsioner = new AirConditioner();
+            konditsioner.TurnOff();
         }
     }
 }

@@ -66,6 +66,9 @@ namespace Interface
 
     public interface IClickable
     {
+
+        
+        public int y { get; set; }
         void Click();
     }
 

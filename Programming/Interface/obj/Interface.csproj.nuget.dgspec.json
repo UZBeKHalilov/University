@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdulloh\\source\\repos\\Interface\\Interface.csproj": {}
+    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Interface\\Interface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdulloh\\source\\repos\\Interface\\Interface.csproj": {
+    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Interface\\Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdulloh\\source\\repos\\Interface\\Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Interface\\Interface.csproj",
         "projectName": "Interface",
-        "projectPath": "C:\\Users\\Abdulloh\\source\\repos\\Interface\\Interface.csproj",
+        "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Interface\\Interface.csproj",
         "packagesPath": "C:\\Users\\Abdulloh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdulloh\\source\\repos\\Interface\\obj\\",
+        "outputPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdulloh\\AppData\\Roaming\\NuGet\\NuGet.Config",

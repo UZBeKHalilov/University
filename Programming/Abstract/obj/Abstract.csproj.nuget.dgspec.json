@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdulloh\\source\\repos\\Abstract\\Abstract.csproj": {}
+    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Abstract\\Abstract.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdulloh\\source\\repos\\Abstract\\Abstract.csproj": {
+    "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Abstract\\Abstract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdulloh\\source\\repos\\Abstract\\Abstract.csproj",
+        "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Abstract\\Abstract.csproj",
         "projectName": "Abstract",
-        "projectPath": "C:\\Users\\Abdulloh\\source\\repos\\Abstract\\Abstract.csproj",
+        "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Abstract\\Abstract.csproj",
         "packagesPath": "C:\\Users\\Abdulloh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdulloh\\source\\repos\\Abstract\\obj\\",
+        "outputPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Abstract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abdulloh\\AppData\\Roaming\\NuGet\\NuGet.Config",
