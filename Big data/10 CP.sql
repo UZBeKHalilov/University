@@ -4,34 +4,36 @@
 
 
 #1.	 Customer jadvalidan AQShda yashovchi yoki elektron pochta manzilida ".com" bo'lgan mijozlarni tanlang.
-select * from Customer;
+select * from Customer where Country = "USA" or Email like "%.com";
 
 #2.	 Employee jadvalidan lavozimi "Sales Support Agent" bo'lmagan xodimlarni toping.
-select * from Employee;
+select * from Employee where not Title = "Sales Support Agent";
 
 #3.	Invoice jadvalidan mamlakati "Canada" va umumiy summasi $10 dan katta bo'lgan fakturalarni toping.
-select * from Invoice;
+select * from Invoice where BillingCountry = "Canada" and total >= 10;
 
 #4.	Track jadvalidan davomiyligi 300,000 millisekunddan katta yoki narxi $0.99 dan yuqori bo'lgan treklarni qidiring.
-select * from Track;
+select * from Track where Milliseconds > 300000 or UnitPrice > 0.99;
 
 #5.	Album jadvalidan AlbumId qiymati 5 va 10 oralig'ida bo'lmagan albomlarni qidiring.
-select * from Album;
+select * from Album where AlbumId not between 5 and 10;
 
 #6.	Invoice jadvalidan umumiy narxni 2 xonagacha yaxlitlab qaytaring.
-select * from Invoice;
+select Total, round(Total, 0) as "Total rounded" from Invoice order by Total desc;
 
 #7.	Track jadvalidan trek narxini yuqoriga qarab yaxlitlang va trekning nomi bilan birga qaytaring.
-select * from Track;
+select Name, ceil(UnitPrice) from Track;
 
 #8.	Track jadvalidan trekning davomiyligini daqiqalarda hisoblab, pastga qarab yaxlitlab qaytaring.
-select * from Track;
+select Name, Milliseconds, floor(Milliseconds / 60000) as DurationInMinutes from Track;
 
 #9.	Invoice jadvalidan umumiy qiymati $20 dan katta bo'lgan fakturalarning umumiy summasidan $20 ni ayirib, ularning mutlaq qiymatini qaytaring.
-select * from Invoice;
+select Total-20 from Invoice where Total > 20;
+# ----- savol tushinarsiz bo'ldi
+
 
 #10.	Track jadvalidan trek narxining kvadratini hisoblab, natijani qaytaring.
-select * from Track;
+select Name, power(UnitPrice,2) from Track;
 
 #11.	Customer jadvalidan Kanadada yashovchi yoki "Gmail" elektron pochta manziliga ega bo'lgan, ammo ismi "John" bo'lmagan mijozlarni tanlang.
 select * from Customer;
