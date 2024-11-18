@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{08603A0E-6CCD-4003-980A-D4D9D77A9BCB}|Generics.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\generics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08603A0E-6CCD-4003-980A-D4D9D77A9BCB}|Generics.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08603A0E-6CCD-4003-980A-D4D9D77A9BCB}|Generics.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\generics\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08603A0E-6CCD-4003-980A-D4D9D77A9BCB}|Generics.csproj|solutionrelative:genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericClass.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Generics\\GenericClass.cs",
+              "RelativeDocumentMoniker": "GenericClass.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Generics\\GenericClass.cs",
+              "RelativeToolTip": "GenericClass.cs",
+              "ViewState": "AgIAAAMAAAAA0czMzMwHwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T11:53:13.096Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Generics\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Generics\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Generics\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T13:06:07.485Z",
               "EditorCaption": ""
