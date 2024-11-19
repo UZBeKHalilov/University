@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\bin\Debug\net8.0\Background Calculation.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\bin\Debug\net8.0\Background Calculation.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\bin\Debug\net8.0\Background Calculation.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\bin\Debug\net8.0\Background Calculation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\bin\Debug\net8.0\Background Calculation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\refint\Background Calculation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\Background Calculation.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Background Calculation\obj\Debug\net8.0\ref\Background Calculation.dll
