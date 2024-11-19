@@ -17,34 +17,44 @@ from track t inner join genre g
 on t.GenreId = g.GenreId;
 
 # 4.	Chinook ma'lumotlar bazasidagi InvoiceLine va Track jadvallarini qo‘shib, har bir invoice chizig‘idagi trek nomini va ularning narxini chiqaring.
-select * from genre;
+select i.InvoiceLineId, t.Name, i.UnitPrice
+from invoiceline i join track t
+on i.TrackId = t.TrackId;
 
 # 5.	Chinook ma'lumotlar bazasidagi Album va Track jadvallarini qo‘shib, har bir albomdagi treklar ro‘yxatini chiqaring.
-select * from track;
+select a.Title, t.Name
+from album a join track t
+on a.AlbumId = t.AlbumId;
 
 # 6.	Chinook ma'lumotlar bazasidagi Employee va Customer jadvallarini qo‘shib, har bir mijoz va unga tayinlangan xodimning ismini chiqaring.
-select * from artist;
+select e.FirstName as Employee, c.FirstName as Customer
+from employee e join customer c
+on e.EmployeeId = c.SupportRepId;
 
 # 7.	Chinook ma'lumotlar bazasidagi PlaylistTrack va Track jadvallarini qo‘shib, har bir pleylistdagi treklar ro‘yxatini chiqaring.
-select * from artist;
+select p.PlaylistId, t.TrackId
+from track t join playlisttrack p
+on t.TrackId = p.TrackId;
 
 # 8.	Chinook ma'lumotlar bazasidagi MediaType va Track jadvallarini qo‘shib, har bir trekning nomi va uning media turini chiqaring.
-select * from artist;
+select t.Name, m.Name
+from track t join mediatype m
+on t.MediaTypeId = m.MediaTypeId;
 
-# 9.	Chinook ma'lumotlar bazasidagi Customer va Invoice jadvallarini qo‘shib, faqat 10 dollar yoki undan ortiq to‘lovni amalga oshirgan  mijozlarning ID raqamini,  ism va familyasini(bir ustunda, Fullname deb nomlang)  va to‘lov summalarini ko‘rsating.
-select * from artist;
+# 9.	Chinook ma'lumotlar bazasidagi Customer va Invoice jadvallarini qo‘shib, faqat 10 dollar yoki undan ortiq to‘lovni
+# amalga oshirgan  mijozlarning ID raqamini,  ism va familyasini(bir ustunda, Fullname deb nomlang)  va to‘lov summalarini ko‘rsating.
+select c.CustomerId, concat(c.FirstName,' ', c.LastName) as Fullname, i.Total
+from customer c join invoice i
+on c.CustomerId = i.CustomerId
+where i.Total > 10;
 
 # 10.	Chinook ma'lumotlar bazasidan har bir qo'shiq (Track) va unga mos keladigan albom (Album) nomini toping.
-select * from artist;
+select t.Name as track, a.Title as album
+from track t join album a
+on t.AlbumId = a.AlbumId;
 
-# 
-select * from artist;
-
-# 
-select * from artist;
 
 # JOINING MULTIPLE TABLES
-select * from artist;
 
 # 1.	Chinook ma'lumotlar bazasidagi Invoice, Customer, va Employee jadvallaridan har bir invoice uchun mijoz ismi va unga xizmat ko'rsatuvchi xodimning ismini ko'rsating.
 select * from artist;
@@ -95,16 +105,8 @@ select * from artist;
 select * from artist;
 
 # INNER JOIN 
-select * from artist;
 
 # ENG
-select * from artist;
-
-# 
-select * from artist;
-
-# 
-select * from artist;
 
 # 1. Retrieve all musicians and their associated albums from the Artist table in the Chinook database.
 select * from artist;
@@ -134,9 +136,6 @@ select * from artist;
 select * from artist;
 
 # 10. Retrieve each track (Track) and its corresponding album (Album) from the Chinook database.
-select * from artist;
-
-# 
 select * from artist;
 
 # JOINING MULTIPLE TABLES
