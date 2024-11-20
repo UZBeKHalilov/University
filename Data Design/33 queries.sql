@@ -9,7 +9,7 @@ select 10+15;
 # 5
 select 56+4-10/5*10;
 
-select name, comission from salesman;
+select name, commission from salesman;
 
 select ord_date, salesman_id, ord_no, purch_amt from orders;
 
