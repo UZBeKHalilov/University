@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sensor Data Logger", "Sensor Data Logger.csproj", "{B1A76875-DB8A-49E0-9205-D8DD6D9D9BE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A76875-DB8A-49E0-9205-D8DD6D9D9BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A76875-DB8A-49E0-9205-D8DD6D9D9BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A76875-DB8A-49E0-9205-D8DD6D9D9BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A76875-DB8A-49E0-9205-D8DD6D9D9BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A0947D6-25C2-4697-9F5E-C1E88B1FE8E1}
+	EndGlobalSection
+EndGlobal
