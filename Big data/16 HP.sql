@@ -25,46 +25,28 @@ on c.CustomerId = i.CustomerId
 group by c.CustomerId;
 
 # 7.	Har bir mijozning ismi va oxirgi invoysning sanasini ko‘rsating, invoyssiz mijozlarni ham qo‘shing.
-select * from track join a on b;
+select c.CustomerId, c.FirstName, max(i.InvoiceDate) as last_date
+from customer c left join invoice i
+on c.CustomerId = i.CustomerId
+group by c.CustomerId;
+
 
 # 8.	Har bir trekning nomi va uning invoyslardagi umumiy sotilgan miqdorini ko‘rsating, sotilmagan treklarni ham qo‘shing.
-select * from track join a on b;
+
+select t.Name AS TrackName, SUM(i.Quantity) AS TotalSold
+from track t left join invoiceLine i
+on t.TrackId = i.TrackId
+group by t.Name;
 
 # 9.	Har bir invoysning ismi va u ichidagi treklar sonini ko‘rsating, trekka ega bo‘lmagan invoyslarni ham qo‘shing.
-select * from track join a on b;
+
+select i.invoiceid, i.invoicedate, count(il.trackid) as numberoftracks 
+from invoice i left join invoiceline il on i.invoiceid = il.invoiceid 
+group by i.invoiceid, i.invoicedate;
+
 
 # 10.	Har bir sotuvchining nomi va uning xizmat qilgan mijozlar sonini ko‘rsating, mijozsiz sotuvchilarni ham qo‘shing.
-select * from track join a on b;
 
-# LEFT JOIN (chinook database)
-# ENG
-
-# 1. Show each track and the name of the album it belongs to, including tracks without an album.
-select * from track join a on b;
-
-# 2. Show each track and its genre name, including tracks without a genre.
-select * from track join a on b;
-
-# 3. Show each customer and their total invoice cost, including customers without an invoice.
-select * from track join a on b;
-
-# 4. Show each album and its number of tracks, including albums without a track.
-select * from track join a on b;
-
-# 5. Show each genre and the total cost of the tracks it includes, including genres without a track.
-select * from track join a on b;
-
-# 6. Show each customer and their most expensive invoice, including customers without an invoice.
-select * from track join a on b;
-
-# 7. Show each customer name and the date of their last invoice, including customers without an invoice.
-select * from track join a on b;
-
-# 8. Show the name of each track and the total amount sold on the invoices, including unsold tracks.
-select * from track join a on b;
-
-# 9. Show the name of each invoice and the number of tracks in it, including invoices that do not have a track.
-select * from track join a on b;
-
-# 10. Show the name of each salesperson and the number of customers they have served, including salespeople without customers.
-select * from track join a on b;
+select e.firstname as salesperson, count(distinct c.customerid) as customercount 
+from employee e left join customer c on e.employeeid = c.supportrepid 
+group by e.firstname, e.lastname;
