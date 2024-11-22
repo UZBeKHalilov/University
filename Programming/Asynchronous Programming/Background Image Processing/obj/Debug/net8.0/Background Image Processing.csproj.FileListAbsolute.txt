@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\bin\Debug\net8.0\Background Image Processing.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\bin\Debug\net8.0\Background Image Processing.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\bin\Debug\net8.0\Background Image Processing.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\bin\Debug\net8.0\Background Image Processing.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\bin\Debug\net8.0\Background Image Processing.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\refint\Background Image Processing.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\Background Image Processing.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Background Image Processing\obj\Debug\net8.0\ref\Background Image Processing.dll

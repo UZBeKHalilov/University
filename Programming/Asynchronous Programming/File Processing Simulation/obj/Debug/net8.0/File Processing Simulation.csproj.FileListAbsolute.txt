@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\bin\Debug\net8.0\File Processing Simulation.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\bin\Debug\net8.0\File Processing Simulation.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\bin\Debug\net8.0\File Processing Simulation.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\bin\Debug\net8.0\File Processing Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\bin\Debug\net8.0\File Processing Simulation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\refint\File Processing Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\File Processing Simulation.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\File Processing Simulation\obj\Debug\net8.0\ref\File Processing Simulation.dll

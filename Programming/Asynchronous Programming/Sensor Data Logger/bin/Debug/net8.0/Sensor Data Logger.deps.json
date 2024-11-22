@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sensor Data Logger/1.0.0": {
+        "runtime": {
+          "Sensor Data Logger.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sensor Data Logger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

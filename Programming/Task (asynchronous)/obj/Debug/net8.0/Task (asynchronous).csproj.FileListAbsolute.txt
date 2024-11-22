@@ -1,0 +1,14 @@
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\bin\Debug\net8.0\Task (asynchronous).exe
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\bin\Debug\net8.0\Task (asynchronous).deps.json
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\bin\Debug\net8.0\Task (asynchronous).runtimeconfig.json
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\bin\Debug\net8.0\Task (asynchronous).dll
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\bin\Debug\net8.0\Task (asynchronous).pdb
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\Task (asynchronous).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\Task (asynchronous).AssemblyInfoInputs.cache
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\Task (asynchronous).AssemblyInfo.cs
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\Task (asynchronous).csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\Task (asynchronous).dll
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\refint\Task (asynchronous).dll
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\Task (asynchronous).pdb
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\Task (asynchronous).genruntimeconfig.cache
+C:\Users\Abdulloh\source\repos\Task (asynchronous)\obj\Debug\net8.0\ref\Task (asynchronous).dll

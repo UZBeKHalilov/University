@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\bin\Debug\net8.0\Stock Price Monitor.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\bin\Debug\net8.0\Stock Price Monitor.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\bin\Debug\net8.0\Stock Price Monitor.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\bin\Debug\net8.0\Stock Price Monitor.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\bin\Debug\net8.0\Stock Price Monitor.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\refint\Stock Price Monitor.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\Stock Price Monitor.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Stock Price Monitor\obj\Debug\net8.0\ref\Stock Price Monitor.dll

@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\bin\Debug\net8.0\Sensor Data Logger.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\bin\Debug\net8.0\Sensor Data Logger.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\bin\Debug\net8.0\Sensor Data Logger.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\bin\Debug\net8.0\Sensor Data Logger.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\bin\Debug\net8.0\Sensor Data Logger.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\refint\Sensor Data Logger.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\Sensor Data Logger.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Sensor Data Logger\obj\Debug\net8.0\ref\Sensor Data Logger.dll

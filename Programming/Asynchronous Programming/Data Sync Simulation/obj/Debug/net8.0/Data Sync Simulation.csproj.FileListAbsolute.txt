@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\bin\Debug\net8.0\Data Sync Simulation.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\bin\Debug\net8.0\Data Sync Simulation.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\bin\Debug\net8.0\Data Sync Simulation.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\bin\Debug\net8.0\Data Sync Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\bin\Debug\net8.0\Data Sync Simulation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\refint\Data Sync Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\Data Sync Simulation.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Data Sync Simulation\obj\Debug\net8.0\ref\Data Sync Simulation.dll

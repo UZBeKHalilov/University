@@ -1,0 +1,14 @@
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\Prime Number Finder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\Prime Number Finder.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\Prime Number Finder.AssemblyInfo.cs
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\Prime Number Finder.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\source\repos\Prime Number Finder\bin\Debug\net8.0\Prime Number Finder.exe
+C:\Users\Abdulloh\source\repos\Prime Number Finder\bin\Debug\net8.0\Prime Number Finder.deps.json
+C:\Users\Abdulloh\source\repos\Prime Number Finder\bin\Debug\net8.0\Prime Number Finder.runtimeconfig.json
+C:\Users\Abdulloh\source\repos\Prime Number Finder\bin\Debug\net8.0\Prime Number Finder.dll
+C:\Users\Abdulloh\source\repos\Prime Number Finder\bin\Debug\net8.0\Prime Number Finder.pdb
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\Prime Number Finder.dll
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\refint\Prime Number Finder.dll
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\Prime Number Finder.pdb
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\Prime Number Finder.genruntimeconfig.cache
+C:\Users\Abdulloh\source\repos\Prime Number Finder\obj\Debug\net8.0\ref\Prime Number Finder.dll
