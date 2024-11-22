@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\bin\Debug\net8.0\Periodic Message Display.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\bin\Debug\net8.0\Periodic Message Display.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\bin\Debug\net8.0\Periodic Message Display.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\bin\Debug\net8.0\Periodic Message Display.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\bin\Debug\net8.0\Periodic Message Display.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\refint\Periodic Message Display.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\Periodic Message Display.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Periodic Message Display\obj\Debug\net8.0\ref\Periodic Message Display.dll

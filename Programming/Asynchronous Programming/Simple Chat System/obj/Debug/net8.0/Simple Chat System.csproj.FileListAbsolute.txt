@@ -1,0 +1,14 @@
+C:\Users\Abdulloh\source\repos\Simple Chat System\bin\Debug\net8.0\Simple Chat System.exe
+C:\Users\Abdulloh\source\repos\Simple Chat System\bin\Debug\net8.0\Simple Chat System.deps.json
+C:\Users\Abdulloh\source\repos\Simple Chat System\bin\Debug\net8.0\Simple Chat System.runtimeconfig.json
+C:\Users\Abdulloh\source\repos\Simple Chat System\bin\Debug\net8.0\Simple Chat System.dll
+C:\Users\Abdulloh\source\repos\Simple Chat System\bin\Debug\net8.0\Simple Chat System.pdb
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\Simple Chat System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\Simple Chat System.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\Simple Chat System.AssemblyInfo.cs
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\Simple Chat System.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\Simple Chat System.dll
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\refint\Simple Chat System.dll
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\Simple Chat System.pdb
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\Simple Chat System.genruntimeconfig.cache
+C:\Users\Abdulloh\source\repos\Simple Chat System\obj\Debug\net8.0\ref\Simple Chat System.dll

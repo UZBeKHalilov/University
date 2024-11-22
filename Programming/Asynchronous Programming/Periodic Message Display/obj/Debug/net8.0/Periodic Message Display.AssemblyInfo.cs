@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Periodic Message Display")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9b52c6228c770beca2bf05460650659309abb18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70bfd5170f283d1f3f40195867f528b8e331700b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Periodic Message Display")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Periodic Message Display")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
