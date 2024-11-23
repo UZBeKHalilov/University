@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Fetch Data Asynchronously/1.0.0": {
+        "runtime": {
+          "Fetch Data Asynchronously.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fetch Data Asynchronously/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
