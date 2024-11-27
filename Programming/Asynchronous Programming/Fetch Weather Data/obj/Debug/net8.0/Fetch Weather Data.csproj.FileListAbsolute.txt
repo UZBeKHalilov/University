@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\bin\Debug\net8.0\Fetch Weather Data.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\bin\Debug\net8.0\Fetch Weather Data.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\bin\Debug\net8.0\Fetch Weather Data.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\bin\Debug\net8.0\Fetch Weather Data.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\bin\Debug\net8.0\Fetch Weather Data.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\refint\Fetch Weather Data.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\Fetch Weather Data.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Weather Data\obj\Debug\net8.0\ref\Fetch Weather Data.dll

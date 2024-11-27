@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\bin\Debug\net8.0\Fetch Data Asynchronously.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\bin\Debug\net8.0\Fetch Data Asynchronously.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\bin\Debug\net8.0\Fetch Data Asynchronously.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\bin\Debug\net8.0\Fetch Data Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\bin\Debug\net8.0\Fetch Data Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\refint\Fetch Data Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\Fetch Data Asynchronously.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch Data Asynchronously\obj\Debug\net8.0\ref\Fetch Data Asynchronously.dll

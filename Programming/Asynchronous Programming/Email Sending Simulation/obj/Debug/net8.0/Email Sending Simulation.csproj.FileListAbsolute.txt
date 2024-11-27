@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\bin\Debug\net8.0\Email Sending Simulation.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\bin\Debug\net8.0\Email Sending Simulation.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\bin\Debug\net8.0\Email Sending Simulation.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\bin\Debug\net8.0\Email Sending Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\bin\Debug\net8.0\Email Sending Simulation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\refint\Email Sending Simulation.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\Email Sending Simulation.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Email Sending Simulation\obj\Debug\net8.0\ref\Email Sending Simulation.dll

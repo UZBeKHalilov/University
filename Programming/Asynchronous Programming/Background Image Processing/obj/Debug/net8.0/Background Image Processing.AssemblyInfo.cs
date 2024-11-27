@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Background Image Processing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70bfd5170f283d1f3f40195867f528b8e331700b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+406ea97b6c2ef9631c546ee00cdd0828ab078fae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Background Image Processing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Background Image Processing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

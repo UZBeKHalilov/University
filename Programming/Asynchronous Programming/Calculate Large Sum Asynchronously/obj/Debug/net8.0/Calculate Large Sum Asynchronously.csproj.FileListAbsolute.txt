@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\bin\Debug\net8.0\Calculate Large Sum Asynchronously.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\bin\Debug\net8.0\Calculate Large Sum Asynchronously.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\bin\Debug\net8.0\Calculate Large Sum Asynchronously.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\bin\Debug\net8.0\Calculate Large Sum Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\bin\Debug\net8.0\Calculate Large Sum Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\refint\Calculate Large Sum Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\Calculate Large Sum Asynchronously.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Calculate Large Sum Asynchronously\obj\Debug\net8.0\ref\Calculate Large Sum Asynchronously.dll
