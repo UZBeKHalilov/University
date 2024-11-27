@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\bin\Debug\net8.0\Process Payment Asynchronously.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\bin\Debug\net8.0\Process Payment Asynchronously.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\bin\Debug\net8.0\Process Payment Asynchronously.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\bin\Debug\net8.0\Process Payment Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\bin\Debug\net8.0\Process Payment Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\refint\Process Payment Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\Process Payment Asynchronously.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Process Payment Asynchronously\obj\Debug\net8.0\ref\Process Payment Asynchronously.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fetch User Profile", "Fetch User Profile.csproj", "{30625598-069B-495B-8755-52FDA7AC060A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30625598-069B-495B-8755-52FDA7AC060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30625598-069B-495B-8755-52FDA7AC060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30625598-069B-495B-8755-52FDA7AC060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30625598-069B-495B-8755-52FDA7AC060A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02F71C12-9CDC-4D80-893F-484B576F16A5}
+	EndGlobalSection
+EndGlobal

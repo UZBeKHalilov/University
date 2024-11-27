@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Process Payment Asynchronously", "Process Payment Asynchronously.csproj", "{80272FB6-ED82-470E-B2A0-8F602B940F4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80272FB6-ED82-470E-B2A0-8F602B940F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80272FB6-ED82-470E-B2A0-8F602B940F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80272FB6-ED82-470E-B2A0-8F602B940F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80272FB6-ED82-470E-B2A0-8F602B940F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46496575-B4BC-4F4A-AE5E-DC0AAB7C35C5}
+	EndGlobalSection
+EndGlobal

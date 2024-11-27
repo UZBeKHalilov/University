@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate Report in Background", "Generate Report in Background.csproj", "{4379E42A-A0AB-4813-A567-300F8E07AEB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4379E42A-A0AB-4813-A567-300F8E07AEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4379E42A-A0AB-4813-A567-300F8E07AEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4379E42A-A0AB-4813-A567-300F8E07AEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4379E42A-A0AB-4813-A567-300F8E07AEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15A245B1-49A2-429A-AD3D-88B2B09ED836}
+	EndGlobalSection
+EndGlobal

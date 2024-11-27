@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Generate Report in Background/1.0.0": {
+        "runtime": {
+          "Generate Report in Background.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Generate Report in Background/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
