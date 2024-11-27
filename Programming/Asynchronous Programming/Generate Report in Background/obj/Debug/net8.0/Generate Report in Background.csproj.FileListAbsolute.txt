@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\bin\Debug\net8.0\Generate Report in Background.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\bin\Debug\net8.0\Generate Report in Background.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\bin\Debug\net8.0\Generate Report in Background.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\bin\Debug\net8.0\Generate Report in Background.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\bin\Debug\net8.0\Generate Report in Background.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\refint\Generate Report in Background.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\Generate Report in Background.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Generate Report in Background\obj\Debug\net8.0\ref\Generate Report in Background.dll

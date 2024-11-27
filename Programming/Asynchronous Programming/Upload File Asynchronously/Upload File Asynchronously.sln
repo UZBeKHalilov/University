@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upload File Asynchronously", "Upload File Asynchronously.csproj", "{38F3FC47-8E14-415C-AC84-1663BF507369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F3FC47-8E14-415C-AC84-1663BF507369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F3FC47-8E14-415C-AC84-1663BF507369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F3FC47-8E14-415C-AC84-1663BF507369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F3FC47-8E14-415C-AC84-1663BF507369}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D2018F9-CA48-4495-A910-156EB509D2CE}
+	EndGlobalSection
+EndGlobal

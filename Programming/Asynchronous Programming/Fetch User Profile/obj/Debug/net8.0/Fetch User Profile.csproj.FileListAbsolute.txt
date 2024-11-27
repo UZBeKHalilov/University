@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\bin\Debug\net8.0\Fetch User Profile.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\bin\Debug\net8.0\Fetch User Profile.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\bin\Debug\net8.0\Fetch User Profile.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\bin\Debug\net8.0\Fetch User Profile.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\bin\Debug\net8.0\Fetch User Profile.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\refint\Fetch User Profile.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\Fetch User Profile.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Fetch User Profile\obj\Debug\net8.0\ref\Fetch User Profile.dll

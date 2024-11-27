@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\bin\Debug\net8.0\Upload File Asynchronously.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\bin\Debug\net8.0\Upload File Asynchronously.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\bin\Debug\net8.0\Upload File Asynchronously.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\bin\Debug\net8.0\Upload File Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\bin\Debug\net8.0\Upload File Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\refint\Upload File Asynchronously.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\Upload File Asynchronously.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Upload File Asynchronously\obj\Debug\net8.0\ref\Upload File Asynchronously.dll

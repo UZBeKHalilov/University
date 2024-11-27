@@ -1,0 +1,15 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\bin\Debug\net8.0\Check Inventory Status.exe
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\bin\Debug\net8.0\Check Inventory Status.deps.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\bin\Debug\net8.0\Check Inventory Status.runtimeconfig.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\bin\Debug\net8.0\Check Inventory Status.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\bin\Debug\net8.0\Check Inventory Status.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.AssemblyInfo.cs
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.sourcelink.json
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\refint\Check Inventory Status.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.pdb
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\Check Inventory Status.genruntimeconfig.cache
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\obj\Debug\net8.0\ref\Check Inventory Status.dll

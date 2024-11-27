@@ -1,0 +1,14 @@
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\Process Order Details.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\Process Order Details.AssemblyInfoInputs.cache
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\Process Order Details.AssemblyInfo.cs
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\Process Order Details.csproj.CoreCompileInputs.cache
+C:\Users\Abdulloh\source\repos\Process Order Details\bin\Debug\net8.0\Process Order Details.exe
+C:\Users\Abdulloh\source\repos\Process Order Details\bin\Debug\net8.0\Process Order Details.deps.json
+C:\Users\Abdulloh\source\repos\Process Order Details\bin\Debug\net8.0\Process Order Details.runtimeconfig.json
+C:\Users\Abdulloh\source\repos\Process Order Details\bin\Debug\net8.0\Process Order Details.dll
+C:\Users\Abdulloh\source\repos\Process Order Details\bin\Debug\net8.0\Process Order Details.pdb
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\Process Order Details.dll
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\refint\Process Order Details.dll
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\Process Order Details.pdb
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\Process Order Details.genruntimeconfig.cache
+C:\Users\Abdulloh\source\repos\Process Order Details\obj\Debug\net8.0\ref\Process Order Details.dll
