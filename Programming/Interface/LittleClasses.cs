@@ -200,6 +200,10 @@ namespace Interface
     {
         private int x = 1;
         private int y = 2;
+
+        int IClickable.x { get; set; }
+        int IClickable.y { get; set; }
+
         public void Click()
         {
             Console.WriteLine($"Button has been clicked!{x} and {y}");
@@ -208,8 +212,8 @@ namespace Interface
 
     public class Hyperlink : IClickable
     {
-        private int x = 0;
-        private int y = 0;
+       public int x { get; set; }
+       public int y { get; set; }
         
         public void Click()
         {

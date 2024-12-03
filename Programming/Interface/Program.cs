@@ -102,11 +102,28 @@
             Console.WriteLine("\nReading from the file...");
             fileOperation.ReadFile(filePath);
 
+            MyClass obj = new MyClass();
+
+            Console.WriteLine("--------------- other ---------------");
+            // Umumiy Display metodi chaqiriladi
+            obj.Display();
+
+            // IFirst interfeysi orqali Display metodini chaqirish
+            IFirst first = obj;
+            first.Display();
+
+            // ISecond interfeysi orqali Display metodini chaqirish
+            ISecond second = obj;
+            second.Display();
+
+
         }
 
         static void SimulateClick(IClickable clickable)
         {
             clickable.Click();
         }
+
+
     }
 }
