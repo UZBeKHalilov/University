@@ -1,0 +1,13 @@
+﻿sweepstake_id,customer_id,phone,address,total_money_spent,income,Are you over 18?,favorite_color
+1,100101,635-573-9754,"1229 Main Street, Scranton, PA",11000,100000,Yes,  Blue
+2,100102,245-989-5630,"457 John Adams, Tukita, HT",800,78000,No,Black
+3,100103,7292879456,"123 North Hill Drive, Dallas, TX",947,75000,Y,  Purple
+4,100104,126-583-7856,"432 Hilly Road, Austin, Tx",534,60000,No,Green
+5,100105,(975)357-7663,"101 Alpine Avenue, New York, NY",3567,,Yes,Blue
+6,100106,,"12 South Main Lane, San Francisco, CA",195,105000,Y,Teal
+7,100107,,"1 Pastery Lane, Chicago, IL",56,50000,N,Orange
+8,100108,,"34 Sindora, Chicago, IL",456,50000,N, green
+9,100109,235-357-3464,"987 Croissant Street, Scranton, Pa",2536,30000,Yes,Yellow
+10,100110,906-485-1542,"701 North Street, Sarasota, FL",1009,65000,Y,Red
+11,100111,674-357-9151,"62810 Julip Lane, Scranton, PA",540,,Y,Pink
+12,100112,346/458/3370,"122 South Street, Charleston, SC",36,45000,Yes,Purple
