@@ -11,3 +11,5 @@ build_property.RootNamespace = Check_Inventory_Status
 build_property.ProjectDir = C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\Asynchronous Programming\Check Inventory Status\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
