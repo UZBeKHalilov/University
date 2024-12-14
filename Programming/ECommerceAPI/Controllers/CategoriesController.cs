@@ -11,9 +11,10 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ECommerceAPI.Controllers
 {
+
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class CategoriesController : ControllerBase
     {
         private readonly ECommerceDbContext _context;
@@ -78,7 +79,6 @@ namespace ECommerceAPI.Controllers
 
         // POST: api/Categories
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-
         [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<Category>> PostCategory(Category category)
