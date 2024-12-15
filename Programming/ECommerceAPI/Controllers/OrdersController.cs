@@ -15,7 +15,7 @@ namespace ECommerceAPI.Controllers
     [ApiController]
     [Authorize]
     public class OrdersController : ControllerBase
-    {
+    {   
         private readonly ECommerceDbContext _context;
 
         public OrdersController(ECommerceDbContext context)

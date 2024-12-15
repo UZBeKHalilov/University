@@ -18,7 +18,7 @@ namespace ECommerceAPI
             builder.Services.AddDbContext<ECommerceDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers();AW
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
@@ -44,7 +44,7 @@ namespace ECommerceAPI
                     Id = "Bearer"
                 }
             },
-            new string[] {}
+            new string[] {}                                                   
         }
     });
             });
