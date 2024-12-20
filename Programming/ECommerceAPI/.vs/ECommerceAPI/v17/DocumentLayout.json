@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABYAAABgZmZmZmYkwBoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAACAmZmZmZkewBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T05:14:18.203Z",
               "IsPinned": true
@@ -51,51 +43,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\OrderItem.cs",
-              "RelativeToolTip": "Models\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:35:26.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAQAAAAANTMzMzMLwAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:29:44.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:31:39.589Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAALgAAAAgzczMzIwjwMMAAAAAAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAABwCUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T06:55:45.465Z",
+              "WhenOpened": "2024-12-20T12:15:41.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABsAAACAmZmZmZkOwCIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T11:59:00.956Z",
               "EditorCaption": ""
             }
           ]

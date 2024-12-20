@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.Models.Category, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,14 +28,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "ECommerceAPI.Models.Category",
+        "Name": "categoryDto",
+        "Type": "ECommerceAPI.DTOs.CategoryCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Category",
+        "Type": "ECommerceAPI.DTOs.CategoryDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Category",
+        "Type": "ECommerceAPI.DTOs.CategoryDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -85,8 +85,8 @@
         "IsRequired": true
       },
       {
-        "Name": "category",
-        "Type": "ECommerceAPI.Models.Category",
+        "Name": "categoryDto",
+        "Type": "ECommerceAPI.DTOs.CategoryUpdateDTO",
         "IsRequired": true
       }
     ],
@@ -327,7 +327,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
+    "ContainingType": "AtirAPI.Controllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "api/Products",
     "HttpMethod": "GET",
@@ -336,7 +336,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.Models.Product, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.DTOs.ProductDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -347,7 +347,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
+    "ContainingType": "AtirAPI.Controllers.ProductsController",
     "Method": "PostProduct",
     "RelativePath": "api/Products",
     "HttpMethod": "POST",
@@ -355,14 +355,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "ECommerceAPI.Models.Product",
+        "Name": "productDto",
+        "Type": "ECommerceAPI.DTOs.ProductCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Product",
+        "Type": "ECommerceAPI.DTOs.ProductDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -373,7 +373,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
+    "ContainingType": "AtirAPI.Controllers.ProductsController",
     "Method": "GetProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
@@ -388,7 +388,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Product",
+        "Type": "ECommerceAPI.DTOs.ProductDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -399,7 +399,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
+    "ContainingType": "AtirAPI.Controllers.ProductsController",
     "Method": "PutProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "PUT",
@@ -420,7 +420,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
+    "ContainingType": "AtirAPI.Controllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",

@@ -22,6 +22,7 @@ namespace ECommerceAPI.Data
             .WithOne(p => p.Category)
             .HasForeignKey(p => p.CategoryId);
 
+
             modelBuilder.Entity<Order>()
             .HasMany(o => o.OrderItems)
             .WithOne(oi => oi.Order)

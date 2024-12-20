@@ -1,52 +1,94 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
 using ECommerceAPI.Data;
+using ECommerceAPI.DTOs;
 using ECommerceAPI.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace ECommerceAPI.Controllers
+namespace AtirAPI.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
         private readonly ECommerceDbContext _context;
+        private readonly IMapper _mapper;
 
-        public ProductsController(ECommerceDbContext context)
+
+        public ProductsController(ECommerceDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         // GET: api/Products
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts()
         {
-            return await _context.Products.Include(p => p.Category).ToListAsync();
+            // Mahsulotlarni Category bilan birga yuklash
+            var products = await _context.Products
+                                         .Include(p => p.Category) // Categoryni qo'shish
+                                         .ToListAsync();
+
+            // DTOga mapping qilish
+            return Ok(_mapper.Map<IEnumerable<ProductDTO>>(products));
         }
+    
 
         // GET: api/Products/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
-            var product = await _context.Products.Include(p => p.Category).FirstOrDefaultAsync(p => p.Id == id);
+            // Mahsulotni Category bilan birga yuklash
+            var product = await _context.Products
+                                        .Include(p => p.Category) // Categoryni qo'shish
+                                        .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null)
             {
                 return NotFound();
             }
 
-            return product;
+            // DTOga mapping qilish
+            return _mapper.Map<ProductDTO>(product);
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult<ProductDTO>> PostProduct([FromBody] ProductCreateDTO productDto)
+        {
+            var product = _mapper.Map<Product>(productDto);
+
+            var category = await _context.Categories.FindAsync(productDto.CategoryId);
+            if (category == null)
+            {
+                return BadRequest("The specified category does not exist.");
+            }
+
+            product.Category = category;
+
+            _context.Products.Add(product);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, "An error occurred while saving the product.");
+            }
+
+            var savedProduct = await _context.Products
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(p => p.Id == product.Id);
+
+            return CreatedAtAction(nameof(GetProduct), new { id = savedProduct.Id },
+                                   _mapper.Map<ProductDTO>(savedProduct));
         }
 
         // PUT: api/Products/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, Product product)
         {
@@ -76,20 +118,7 @@ namespace ECommerceAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/Products
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize(Roles = "Admin")]
-        [HttpPost]
-        public async Task<ActionResult<Product>> PostProduct(Product product)
-        {
-            _context.Products.Add(product);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetProduct", new { id = product.Id }, product);
-        }
-
         // DELETE: api/Products/5
-        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {

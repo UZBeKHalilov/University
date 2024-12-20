@@ -9,7 +9,6 @@ namespace ECommerceAPI.Models
         public string Description { get; set; }
 
         // Navigation property for related products
-        [JsonIgnore]
-        public ICollection<Product> Products { get; set; }
+        public virtual ICollection<Product> Products { get; set; } = new List<Product>(); // Virtual for lazy loading
     }
 }

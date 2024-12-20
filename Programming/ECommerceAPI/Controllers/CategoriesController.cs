@@ -1,62 +1,77 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ECommerceAPI.Data;
-using ECommerceAPI.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+using ECommerceAPI.DTOs;
+using ECommerceAPI.Models;
+using ECommerceAPI.Data;
 
 namespace ECommerceAPI.Controllers
 {
-
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoriesController : ControllerBase
     {
         private readonly ECommerceDbContext _context;
+        private readonly IMapper _mapper;
 
-        public CategoriesController(ECommerceDbContext context)
+        public CategoriesController(ECommerceDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
-        // GET: api/Categories
+        // GET : api/Categories
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
+        public async Task<ActionResult<IEnumerable<CategoryDTO>>> GetCategories()
         {
-            return await _context.Categories.ToListAsync();
+            var categories = await _context.Categories.ToListAsync();
+            return Ok(_mapper.Map<IEnumerable<CategoryDTO>>(categories));
         }
 
-        // GET: api/Categories/5
+        // GET : api/Categories/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> GetCategory(int id)
+        public async Task<ActionResult<CategoryDTO>> GetCategory(int id)
         {
             var category = await _context.Categories.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return _mapper.Map<CategoryDTO>(category);
+        }
 
+        // POST : api/Categories
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public async Task<ActionResult<CategoryDTO>> PostCategory(CategoryCreateDTO categoryDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var category = _mapper.Map<Category>(categoryDto);
+            _context.Categories.Add(category);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetCategory), new { id = category.Id }, _mapper.Map<CategoryDTO>(category));
+        }
+
+        // PUT : api/Categories/5
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCategory(int id, CategoryUpdateDTO categoryDto)
+        {
+            var category = await _context.Categories.FindAsync(id);
             if (category == null)
             {
                 return NotFound();
             }
 
-            return category;
-        }
-
-        // PUT: api/Categories/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize(Roles = "Admin")]
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCategory(int id, Category category)
-        {
-            if (id != category.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(category).State = EntityState.Modified;
+            _mapper.Map(categoryDto, category);  // Updates category with dto data
 
             try
             {
@@ -76,19 +91,6 @@ namespace ECommerceAPI.Controllers
 
             return NoContent();
         }
-
-        // POST: api/Categories
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize(Roles = "Admin")]
-        [HttpPost]
-        public async Task<ActionResult<Category>> PostCategory(Category category)
-        {
-            _context.Categories.Add(category);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetCategory", new { id = category.Id }, category);
-        }
-
         // DELETE: api/Categories/5
         [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]

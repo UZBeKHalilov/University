@@ -268,3 +268,4 @@ C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Deb
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Debug\net9.0\ref\ECommerceAPI.dll
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\BCrypt.Net-Next.dll
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\AutoMapper.dll
