@@ -19,11 +19,12 @@ namespace ECommerceAPI
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddControllers();
+
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
-            // Swagger konfiguratsiyasi
+            // Swagger configuring
             builder.Services.AddSwaggerGen(options =>
             {
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -51,8 +52,8 @@ namespace ECommerceAPI
             });
 
 
-
             builder.Services.AddEndpointsApiExplorer();
+                        
             builder.Services.AddSwaggerGen();
             builder.Services.Configure<AuthSettings>(builder.Configuration.GetSection("AuthSettings"));
 
