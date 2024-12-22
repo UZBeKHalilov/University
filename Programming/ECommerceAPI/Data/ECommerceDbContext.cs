@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ECommerceAPI.Models;
 using Microsoft.EntityFrameworkCore.Storage;
+using ECommerceAPI.Models;
 
 namespace ECommerceAPI.Data
 {

@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using ECommerceAPI.DTOs;
-using ECommerceAPI.Models;
 using ECommerceAPI.Data;
+using ECommerceAPI.Models;
 
 namespace ECommerceAPI.Controllers
 {

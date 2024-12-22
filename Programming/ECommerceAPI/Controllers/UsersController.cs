@@ -1,6 +1,5 @@
 ﻿using ECommerceAPI.Data;
 using ECommerceAPI.Helpers;
-using ECommerceAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +9,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using BCrypt;
+using ECommerceAPI.Models;
 
 namespace ECommerceAPI.Controllers
 {

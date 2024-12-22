@@ -118,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.Models.Customer, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.DTOs.CustomerDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -137,14 +137,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customer",
-        "Type": "ECommerceAPI.Models.Customer",
+        "Name": "customerDto",
+        "Type": "ECommerceAPI.DTOs.CustomerCreateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Customer",
+        "Type": "ECommerceAPI.DTOs.CustomerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Customer",
+        "Type": "ECommerceAPI.DTOs.CustomerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -194,8 +194,8 @@
         "IsRequired": true
       },
       {
-        "Name": "customer",
-        "Type": "ECommerceAPI.Models.Customer",
+        "Name": "customerDto",
+        "Type": "ECommerceAPI.DTOs.CustomerCreateDTO",
         "IsRequired": true
       }
     ],

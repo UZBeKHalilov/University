@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using ECommerceAPI.Models;
 using ECommerceAPI.DTOs;
+using ECommerceAPI.Models;
 
 namespace ECommerceAPI.Profiles
 {
