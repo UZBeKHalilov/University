@@ -253,7 +253,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Order",
+        "Type": "ECommerceAPI.DTOs.OrderDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -306,7 +306,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AtirAPI.Controllers.ProductsController",
+    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "GetProducts",
     "RelativePath": "api/Products",
     "HttpMethod": "GET",
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "ContainingType": "AtirAPI.Controllers.ProductsController",
+    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "PostProduct",
     "RelativePath": "api/Products",
     "HttpMethod": "POST",
@@ -352,7 +352,7 @@
     ]
   },
   {
-    "ContainingType": "AtirAPI.Controllers.ProductsController",
+    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "GetProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "ContainingType": "AtirAPI.Controllers.ProductsController",
+    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "PutProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "PUT",
@@ -399,7 +399,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AtirAPI.Controllers.ProductsController",
+    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",
@@ -415,7 +415,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AtirAPI.Controllers.ProductsController",
+    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "UploadImage",
     "RelativePath": "api/Products/{id}/upload-image",
     "HttpMethod": "POST",
@@ -436,7 +436,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AtirAPI.Controllers.ProductsController",
+    "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "SearchProducts",
     "RelativePath": "api/Products/search",
     "HttpMethod": "GET",

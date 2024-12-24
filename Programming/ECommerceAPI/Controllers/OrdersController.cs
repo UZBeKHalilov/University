@@ -61,7 +61,7 @@ namespace ECommerceAPI.Controllers
 
         // POST: api/Orders
         [HttpPost]
-        public async Task<ActionResult<Order>> PostOrder(OrderCreateDTO orderDto)
+        public async Task<ActionResult<OrderDTO>> PostOrder(OrderCreateDTO orderDto)
         {
             // Validate customer existence
             var customer = await _context.Customers.FindAsync(orderDto.CustomerId);

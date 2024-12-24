@@ -268,4 +268,13 @@ C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Deb
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\ECommerceAPI.staticwebassets.runtime.json
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Stripe.net.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Sinks.File.dll
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -21,8 +21,8 @@ namespace ECommerceAPI.Profiles
         {
             CreateMap<OrderCreateDTO, Order>()
                 .ForMember(dest => dest.Customer, opt => opt.Ignore())
-                .ForMember(dest => dest.OrderItems, opt => opt.MapFrom(src => src.OrderItems))
-                .ForMember(dest => dest.PaymentStatus, opt => opt.MapFrom(src => src.PaymentStatus));
+                .ForMember(dest => dest.OrderItems, opt => opt.MapFrom(src => src.OrderItems));
+                //.ForMember(dest => dest.PaymentStatus, opt => opt.MapFrom(src => src.PaymentStatus));
 
             CreateMap<OrderItemCreateDTO, OrderItem>()
                 .ForMember(dest => dest.Order, opt => opt.Ignore())

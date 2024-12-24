@@ -5,8 +5,9 @@ using ECommerceAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
-namespace AtirAPI.Controllers
+namespace ECommerceAPI.Controllers
 {
     
     [ApiController]
@@ -133,9 +134,17 @@ namespace AtirAPI.Controllers
         {
             var product = _mapper.Map<Product>(productDto);
 
+            if (string.IsNullOrEmpty(product.Name))
+            {
+                Log.Warning("Product creation failed due to missing name.");
+                return BadRequest(new { Message = "Product name is required.", ErrorCode = "ERR_MISSING_PRODUCT_NAME" });
+            }
+
+
             var category = await _context.Categories.FindAsync(productDto.CategoryId);
             if (category == null)
             {
+                Log.Warning("Product creation failed due to non-existent category with ID {CategoryId}.", productDto.CategoryId);
                 return BadRequest("The specified category does not exist.");
             }
 
@@ -146,18 +155,28 @@ namespace AtirAPI.Controllers
             try
             {
                 await _context.SaveChangesAsync();
+                Log.Information("Product {ProductName} created with ID {ProductId}", product.Name, product.Id);
+                var createdProduct = await _context.Products
+                    .Include(p => p.Category)
+                    .FirstOrDefaultAsync(p => p.Id == product.Id);
+
+                return CreatedAtAction(nameof(GetProduct), new { id = createdProduct.Id },
+                                               _mapper.Map<ProductDTO>(createdProduct));
+
             }
             catch (DbUpdateException ex)
             {
+                Log.Error(ex, "Failed to save product {ProductName} to database.", product.Name);
+
                 return StatusCode(500, "An error occurred while saving the product.");
             }
 
-            var savedProduct = await _context.Products
-                .Include(p => p.Category)
-                .FirstOrDefaultAsync(p => p.Id == product.Id);
+            //var savedProduct = await _context.Products
+            //    .Include(p => p.Category)
+            //    .FirstOrDefaultAsync(p => p.Id == product.Id);
 
-            return CreatedAtAction(nameof(GetProduct), new { id = savedProduct.Id },
-                                   _mapper.Map<ProductDTO>(savedProduct));
+            //return CreatedAtAction(nameof(GetProduct), new { id = savedProduct.Id },
+            //                       _mapper.Map<ProductDTO>(savedProduct));
         }
 
 

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 namespace ECommerceAPI
 {
@@ -13,6 +14,13 @@ namespace ECommerceAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+                .CreateLogger();
+
+            builder.Host.UseSerilog();
 
             // Add services to the container.
             builder.Services.AddDbContext<ECommerceDbContext>(options =>
@@ -88,14 +96,17 @@ namespace ECommerceAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            app.UseMiddleware<ECommerceAPI.Middlewares.ErrorHandlerMiddleware>();
 
+            app.UseSerilogRequestLogging();
+
+            app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();
 
-            app.UseStaticFiles();
+            app.UseStaticFiles(); // For Product Images
 
             app.Run();
         }
