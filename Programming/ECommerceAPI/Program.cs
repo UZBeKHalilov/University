@@ -92,6 +92,8 @@ namespace ECommerceAPI
 
             app.MapControllers();
 
+            app.UseStaticFiles();
+
             app.Run();
         }
     }

@@ -753,6 +753,14 @@
               "type": "boolean",
               "default": true
             }
+          },
+          {
+            "name": "stockOnly",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
           }
         ],
         "responses": {
@@ -775,6 +783,49 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Products/{id}/upload-image": {
+      "post": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -1129,6 +1180,10 @@
             "type": "integer",
             "format": "int32"
           },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
+          },
           "categoryId": {
             "type": "integer",
             "format": "int32"
@@ -1157,6 +1212,10 @@
           "stock": {
             "type": "integer",
             "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           },
           "categoryId": {
             "type": "integer",
@@ -1187,6 +1246,10 @@
           "stock": {
             "type": "integer",
             "format": "int32"
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           },
           "categoryId": {
             "type": "integer",

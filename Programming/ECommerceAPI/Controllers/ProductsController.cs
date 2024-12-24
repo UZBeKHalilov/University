@@ -127,7 +127,7 @@ namespace AtirAPI.Controllers
             });
         }
 
-
+        // POST: api/Products/
         [HttpPost]
         public async Task<ActionResult<ProductDTO>> PostProduct([FromBody] ProductCreateDTO productDto)
         {
@@ -159,6 +159,72 @@ namespace AtirAPI.Controllers
             return CreatedAtAction(nameof(GetProduct), new { id = savedProduct.Id },
                                    _mapper.Map<ProductDTO>(savedProduct));
         }
+
+
+        // POST: api/Products/5/upload-image/
+        [HttpPost("{id}/upload-image")]
+        public async Task<IActionResult> UploadImage(int id, IFormFile file, [FromServices] IWebHostEnvironment hostEnvironment)
+        {
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                return NotFound("Product not found.");
+            }
+
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("Invalid file.");
+            }
+
+            // Ensure the images directory exists
+            var imagePath = Path.Combine(hostEnvironment.WebRootPath, "images");
+            if (!Directory.Exists(imagePath))
+            {
+                Directory.CreateDirectory(imagePath);
+            }
+
+            // Validate file type
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+            var fileExtension = Path.GetExtension(file.FileName).ToLower();
+            if (!allowedExtensions.Contains(fileExtension))
+            {
+                return BadRequest("Invalid file type. Only JPG, JPEG, PNG, and GIF are allowed.");
+            }
+
+            // Restrict file size (example: 5MB)
+            const long maxFileSize = 5 * 1024 * 1024; // 5MB
+            if (file.Length > maxFileSize)
+            {
+                return BadRequest("File size exceeds the maximum limit of 5MB.");
+            }
+            
+            // Generate a unique file name and save the file
+            var fileName = $"{Guid.NewGuid()}{fileExtension}";
+            var filePath = Path.Combine(imagePath, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            // Cleanup old image if exists
+            if (!string.IsNullOrEmpty(product.ImageUrl))
+            {
+                var oldImagePath = Path.Combine(hostEnvironment.WebRootPath, product.ImageUrl.TrimStart('/'));
+                if (System.IO.File.Exists(oldImagePath))
+                {
+                    System.IO.File.Delete(oldImagePath);
+                }
+            }
+
+            // Update the product's ImageUrl
+            product.ImageUrl = $"/images/{fileName}";
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+
+            return Ok(_mapper.Map<ProductDTO>(product));
+        }
+
 
         // PUT: api/Products/5
         [HttpPut("{id}")]
