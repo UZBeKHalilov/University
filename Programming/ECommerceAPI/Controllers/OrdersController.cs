@@ -1,4 +1,5 @@
 ﻿
+using AutoMapper;
 using ECommerceAPI.Data;
 using ECommerceAPI.DTOs;
 using ECommerceAPI.Models;
@@ -18,31 +19,35 @@ namespace ECommerceAPI.Controllers
     public class OrdersController : ControllerBase
     {
         private readonly ECommerceDbContext _context;
+        private readonly IMapper _mapper;
 
-        public OrdersController(ECommerceDbContext context)
+        public OrdersController(ECommerceDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
-        // GET: api/Orders
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
+        public async Task<ActionResult<IEnumerable<OrderDTO>>> GetOrders()
         {
-            return await _context.Orders
+            var orders = await _context.Orders
                 .Include(o => o.Customer)
                 .Include(o => o.OrderItems)
-                .ThenInclude(oi => oi.Product)
+                    .ThenInclude(oi => oi.Product)
+                        .ThenInclude(p => p.Category)
                 .ToListAsync();
+
+            return Ok(_mapper.Map<IEnumerable<OrderDTO>>(orders));
         }
 
-        // GET: api/Orders/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Order>> GetOrder(int id)
+        public async Task<ActionResult<OrderDTO>> GetOrder(int id)
         {
             var order = await _context.Orders
                 .Include(o => o.Customer)
                 .Include(o => o.OrderItems)
-                .ThenInclude(oi => oi.Product)
+                    .ThenInclude(oi => oi.Product)
+                        .ThenInclude(p => p.Category)
                 .FirstOrDefaultAsync(o => o.Id == id);
 
             if (order == null)
@@ -50,8 +55,9 @@ namespace ECommerceAPI.Controllers
                 return NotFound();
             }
 
-            return order;
+            return Ok(_mapper.Map<OrderDTO>(order));
         }
+
 
         // POST: api/Orders
         [HttpPost]

@@ -18,6 +18,8 @@ namespace ECommerceAPI
             builder.Services.AddDbContext<ECommerceDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            builder.Services.Configure<PaymentSettings>(builder.Configuration.GetSection("PaymentSettings"));
+
             builder.Services.AddControllers();
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -75,6 +77,7 @@ namespace ECommerceAPI
                 };
 
             });
+
 
             var app = builder.Build();
 

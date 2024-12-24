@@ -12,6 +12,7 @@ namespace ECommerceAPI.Models
         public virtual Customer Customer { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal TotalAmount { get; set; }
+        public string PaymentStatus { get; set; } = "Pending";
         public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 

@@ -93,6 +93,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "stripe.net": {
+              "target": "Package",
+              "version": "[47.2.0, )"
             }
           },
           "imports": [
