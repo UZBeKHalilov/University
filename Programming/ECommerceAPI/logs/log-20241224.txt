@@ -455,3 +455,41 @@ INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
 2024-12-24 17:54:19.771 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.532ms
 2024-12-24 17:54:19.865 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
 2024-12-24 17:54:19.948 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.6125ms
+2024-12-24 18:12:55.611 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-24 18:12:56.008 +05:00 [INF] Now listening on: https://localhost:7142
+2024-12-24 18:12:56.011 +05:00 [INF] Now listening on: http://localhost:5204
+2024-12-24 18:12:56.077 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 18:12:56.080 +05:00 [INF] Hosting environment: Development
+2024-12-24 18:12:56.082 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI
+2024-12-24 18:12:56.614 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2024-12-24 18:12:56.857 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 247.907ms
+2024-12-24 18:12:56.905 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-24 18:12:56.905 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.js - null null
+2024-12-24 18:12:56.926 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2024-12-24 18:12:56.932 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.js - 200 null application/javascript;charset=utf-8 27.2137ms
+2024-12-24 18:12:56.940 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 35.0482ms
+2024-12-24 18:12:57.057 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 131.8436ms
+2024-12-24 18:12:57.266 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2024-12-24 18:12:57.351 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.1424ms
+2024-12-24 18:13:46.071 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/v2/ProductsV - null null
+2024-12-24 18:13:46.168 +05:00 [INF] Executing endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 18:13:46.185 +05:00 [INF] Route matched with {action = "GetProducts", controller = "ProductsV"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GetProducts() on controller ProductsV2Controller (ECommerceAPI).
+2024-12-24 18:13:46.199 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-24 18:13:46.210 +05:00 [INF] Executed action ProductsV2Controller.GetProducts (ECommerceAPI) in 16.3797ms
+2024-12-24 18:13:46.214 +05:00 [INF] Executed endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 18:13:46.219 +05:00 [INF] HTTP GET /api/v2/ProductsV responded 200 in 122.4781 ms
+2024-12-24 18:13:46.225 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/v2/ProductsV - 200 null text/plain; charset=utf-8 153.7508ms
+2024-12-24 18:13:54.876 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/v1/ProductsV - null null
+2024-12-24 18:13:54.900 +05:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '1'. Candidate actions: ProductsV2Controller.GetProducts (ECommerceAPI)
+2024-12-24 18:13:54.913 +05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 18:13:54.924 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-12-24 18:13:54.940 +05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 18:13:54.943 +05:00 [INF] HTTP GET /api/v1/ProductsV responded 400 in 36.0593 ms
+2024-12-24 18:13:54.948 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/v1/ProductsV - 400 null application/json; charset=utf-8 71.99ms
+2024-12-24 18:14:14.286 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/v2/Products - null null
+2024-12-24 18:14:14.293 +05:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '2'. Candidate actions: ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)
+2024-12-24 18:14:14.300 +05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 18:14:14.303 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-12-24 18:14:14.307 +05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 18:14:14.311 +05:00 [INF] HTTP GET /api/v2/Products responded 400 in 14.7354 ms
+2024-12-24 18:14:14.316 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/v2/Products - 400 null application/json; charset=utf-8 29.9932ms

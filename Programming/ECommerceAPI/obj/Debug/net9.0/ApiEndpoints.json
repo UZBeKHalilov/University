@@ -306,13 +306,51 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ECommerceAPI.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ECommerceAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceAPI.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ECommerceAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "GetProducts",
-    "RelativePath": "api/Products",
+    "RelativePath": "api/v{version}/Products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.DTOs.ProductDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -328,7 +366,7 @@
   {
     "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "PostProduct",
-    "RelativePath": "api/Products",
+    "RelativePath": "api/v{version}/Products",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -336,6 +374,11 @@
       {
         "Name": "productDto",
         "Type": "ECommerceAPI.DTOs.ProductCreateDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -354,7 +397,7 @@
   {
     "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "GetProduct",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/v{version}/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -362,6 +405,11 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -380,7 +428,7 @@
   {
     "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "PutProduct",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/v{version}/Products/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -394,6 +442,11 @@
         "Name": "product",
         "Type": "ECommerceAPI.Models.Product",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -401,7 +454,7 @@
   {
     "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "DeleteProduct",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/v{version}/Products/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -410,6 +463,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -417,7 +475,7 @@
   {
     "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "UploadImage",
-    "RelativePath": "api/Products/{id}/upload-image",
+    "RelativePath": "api/v{version}/Products/{id}/upload-image",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -431,6 +489,11 @@
         "Name": "file",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -438,7 +501,7 @@
   {
     "ContainingType": "ECommerceAPI.Controllers.ProductsController",
     "Method": "SearchProducts",
-    "RelativePath": "api/Products/search",
+    "RelativePath": "api/v{version}/Products/search",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -487,6 +550,11 @@
         "Name": "stockOnly",
         "Type": "System.Boolean",
         "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -502,35 +570,29 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.UserController",
-    "Method": "Login",
-    "RelativePath": "api/User/login",
-    "HttpMethod": "POST",
+    "ContainingType": "ProductsV2Controller",
+    "Method": "GetProducts",
+    "RelativePath": "api/v{version}/ProductsV",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "ECommerceAPI.Models.User",
+        "Name": "version",
+        "Type": "",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ECommerceAPI.Controllers.UserController",
-    "Method": "Register",
-    "RelativePath": "api/User/register",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+    "ReturnTypes": [
       {
-        "Name": "user",
-        "Type": "ECommerceAPI.Models.User",
-        "IsRequired": true
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
-    ],
-    "ReturnTypes": []
+    ]
   }
 ]

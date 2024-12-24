@@ -278,3 +278,4 @@ C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Deb
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Serilog.Sinks.File.dll
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Versioning.dll

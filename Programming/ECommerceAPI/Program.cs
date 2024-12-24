@@ -6,6 +6,8 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
+using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceAPI
 {
@@ -37,6 +39,21 @@ namespace ECommerceAPI
             // Swagger configuring
             builder.Services.AddSwaggerGen(options =>
             {
+                // Swagger hujjatlari (v1 va v2)
+                options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Version = "1.0",
+                    Title = "E-Commerce API",
+                    Description = "API for managing an e-commerce platform (v1.0)"
+                });
+                options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Version = "2.0",
+                    Title = "E-Commerce API",
+                    Description = "API for managing an e-commerce platform (v2.0)"
+                });
+
+                // JWT Security Definition
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
@@ -45,9 +62,10 @@ namespace ECommerceAPI
                     Type = SecuritySchemeType.ApiKey
                 });
 
+                // Global xavfsizlik talablari
                 options.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
-                {
+    {
+        {
             new OpenApiSecurityScheme
             {
                 Reference = new OpenApiReference
@@ -56,15 +74,16 @@ namespace ECommerceAPI
                     Id = "Bearer"
                 }
             },
-            new string[] {}                                                   
-            }
+            new string[] {}
+        }
     });
             });
 
 
             builder.Services.AddEndpointsApiExplorer();
                         
-            builder.Services.AddSwaggerGen();
+            //builder.Services.AddSwaggerGen();
+
             builder.Services.Configure<AuthSettings>(builder.Configuration.GetSection("AuthSettings"));
 
             var authSettings = builder.Configuration.GetSection("AuthSettings").Get<AuthSettings>();
@@ -86,6 +105,14 @@ namespace ECommerceAPI
 
             });
 
+            builder.Services.AddApiVersioning(options =>
+            {
+                options.DefaultApiVersion = new ApiVersion(1, 0); // Default to version 1.0
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.ReportApiVersions = true; // Include version information in the response headers
+                options.ApiVersionReader = new UrlSegmentApiVersionReader(); // Read version from URL segment
+            });
+
 
             var app = builder.Build();
 
@@ -93,7 +120,13 @@ namespace ECommerceAPI
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                
+                app.UseSwaggerUI(options =>
+                {
+                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "E-Commerce API v1.0");
+                    options.SwaggerEndpoint("/swagger/v2/swagger.json", "E-Commerce API v2.0");
+                });
+
             }
 
             app.UseMiddleware<ECommerceAPI.Middlewares.ErrorHandlerMiddleware>();

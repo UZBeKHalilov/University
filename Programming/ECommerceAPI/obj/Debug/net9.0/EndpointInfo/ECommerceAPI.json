@@ -521,10 +521,20 @@
         }
       }
     },
-    "/api/Products": {
+    "/api/v{version}/Products": {
       "get": {
         "tags": [
           "Products"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -561,6 +571,16 @@
       "post": {
         "tags": [
           "Products"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -605,7 +625,7 @@
         }
       }
     },
-    "/api/Products/{id}": {
+    "/api/v{version}/Products/{id}": {
       "get": {
         "tags": [
           "Products"
@@ -618,6 +638,14 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -656,6 +684,14 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -697,6 +733,14 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -706,7 +750,7 @@
         }
       }
     },
-    "/api/Products/search": {
+    "/api/v{version}/Products/search": {
       "get": {
         "tags": [
           "Products"
@@ -783,6 +827,14 @@
               "type": "boolean",
               "default": false
             }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -809,7 +861,7 @@
         }
       }
     },
-    "/api/Products/{id}/upload-image": {
+    "/api/v{version}/Products/{id}/upload-image": {
       "post": {
         "tags": [
           "Products"
@@ -822,6 +874,14 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -848,6 +908,45 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v{version}/ProductsV": {
+      "get": {
+        "tags": [
+          "ProductsV"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }

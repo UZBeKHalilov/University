@@ -9,9 +9,9 @@ using Serilog;
 
 namespace ECommerceAPI.Controllers
 {
-    
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
         private readonly ECommerceDbContext _context;
@@ -25,6 +25,10 @@ namespace ECommerceAPI.Controllers
         }
 
         // GET: api/Products
+        /// <summary>
+        /// Retrieves all products.
+        /// </summary>
+        /// <returns>A list of products.</returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts()
         {
@@ -39,6 +43,11 @@ namespace ECommerceAPI.Controllers
 
 
         // GET: api/Products/5
+        /// <summary>
+        /// Retrieves a specific product by ID.
+        /// </summary>
+        /// <param name="id">The product ID.</param>
+        /// <returns>The requested product.</returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
