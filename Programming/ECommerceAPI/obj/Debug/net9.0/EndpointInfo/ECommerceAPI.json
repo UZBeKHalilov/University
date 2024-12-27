@@ -1,7 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "ECommerceAPI",
+    "title": "E-Commerce API",
+    "description": "API for managing an e-commerce platform (v1.0)",
     "version": "1.0"
   },
   "paths": {

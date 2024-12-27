@@ -25,8 +25,10 @@ namespace ECommerceAPI
             builder.Host.UseSerilog();
 
             // Add services to the container.
-            builder.Services.AddDbContext<ECommerceDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddDbContext<ECommerceDbContext>(options => {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+                
+                });
 
             builder.Services.Configure<PaymentSettings>(builder.Configuration.GetSection("PaymentSettings"));
 
@@ -117,8 +119,8 @@ namespace ECommerceAPI
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
+            //if (app.Environment.IsDevelopment())
+            //{
                 app.UseSwagger();
                 
                 app.UseSwaggerUI(options =>
@@ -127,7 +129,7 @@ namespace ECommerceAPI
                     options.SwaggerEndpoint("/swagger/v2/swagger.json", "E-Commerce API v2.0");
                 });
 
-            }
+            //}
 
             app.UseMiddleware<ECommerceAPI.Middlewares.ErrorHandlerMiddleware>();
 

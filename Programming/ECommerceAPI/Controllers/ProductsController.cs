@@ -138,6 +138,7 @@ namespace ECommerceAPI.Controllers
         }
 
         // POST: api/Products/
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<ProductDTO>> PostProduct([FromBody] ProductCreateDTO productDto)
         {
@@ -190,6 +191,7 @@ namespace ECommerceAPI.Controllers
 
 
         // POST: api/Products/5/upload-image/
+        [Authorize(Roles = "Admin")]
         [HttpPost("{id}/upload-image")]
         public async Task<IActionResult> UploadImage(int id, IFormFile file, [FromServices] IWebHostEnvironment hostEnvironment)
         {
@@ -255,6 +257,7 @@ namespace ECommerceAPI.Controllers
 
 
         // PUT: api/Products/5
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, Product product)
         {
@@ -285,6 +288,7 @@ namespace ECommerceAPI.Controllers
         }
 
         // DELETE: api/Products/5
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
