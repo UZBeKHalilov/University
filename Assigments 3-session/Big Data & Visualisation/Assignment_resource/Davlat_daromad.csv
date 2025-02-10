@@ -1,0 +1,23 @@
+country,"SUM(od.quantityOrdered * od.priceEach)"
+France,1007374.02
+USA,3273280.05
+Australia,562582.59
+Norway,104224.79
+Germany,196470.99
+Spain,1099389.09
+Sweden,187638.35
+Denmark,218994.92
+Singapore,263997.78
+"Norway  ",166621.51
+Japan,167909.95
+Finland,295149.35
+UK,436947.44
+Ireland,49898.27
+Canada,205911.86
+"Hong Kong",45480.79
+Italy,360616.81
+Switzerland,108777.92
+Belgium,100068.76
+"New Zealand",476847.01
+Austria,188540.06
+Philippines,87468.30
