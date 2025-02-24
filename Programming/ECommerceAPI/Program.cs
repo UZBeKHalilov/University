@@ -83,8 +83,16 @@ namespace ECommerceAPI
 
 
             builder.Services.AddEndpointsApiExplorer();
-                        
+
             //builder.Services.AddSwaggerGen();
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader());
+            });
 
             builder.Services.Configure<AuthSettings>(builder.Configuration.GetSection("AuthSettings"));
 
@@ -121,6 +129,8 @@ namespace ECommerceAPI
             // Configure the HTTP request pipeline.
             //if (app.Environment.IsDevelopment())
             //{
+            app.UseCors("AllowAll");
+
                 app.UseSwagger();
                 
                 app.UseSwaggerUI(options =>
@@ -130,6 +140,7 @@ namespace ECommerceAPI
                 });
 
             //}
+
 
             app.UseMiddleware<ECommerceAPI.Middlewares.ErrorHandlerMiddleware>();
 
@@ -141,7 +152,8 @@ namespace ECommerceAPI
 
             app.MapControllers();
 
-            app.UseStaticFiles(); // For Product Images
+            app.UseStaticFiles();
+            app.MapFallbackToFile("index.html");
 
             app.Run();
         }

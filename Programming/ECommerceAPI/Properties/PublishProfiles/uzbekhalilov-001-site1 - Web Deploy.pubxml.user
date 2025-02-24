@@ -6,8 +6,18 @@
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmzwKRd+Mb0q9vV7bBjjxpQAAAAACAAAAAAAQZgAAAAEAACAAAADDTeP7PTBpdmDjz+vTCHfERtDCsKpLLiVKDAZnEG3blwAAAAAOgAAAAAIAACAAAAB7eIZz2oe8xlaCn7yua/vP5+WSVDJ3i/xtxfCwsNYxNCAAAABf0IvsWQoWkMjvjlKBpuy0lRVlXuHOL/TnGNE1IDARlkAAAACKjgY81OgLee8uVRRFY2SIq3gJfHnsekr75XM10WVxbTnj4HzYoXuYQ3bJG/CaaJeUFkiKnXD5hp8yZUMjRI6E</EncryptedPassword>
-    <History>True|2024-12-26T13:33:32.5797207Z||;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIIxazTtr2UOTwq8uiovF3AAAAAACAAAAAAAQZgAAAAEAACAAAACVFMLbODlVhz0ZBZZ9Iv1ONgAG8N9M4MTe+jlnlCf2vwAAAAAOgAAAAAIAACAAAAB0cZVWtZBXn7zyNRGjt9BqhzzDCOgo2Z5OWjfHsaQG9SAAAADZLsl/iBqB6wpp7O6BubY7tQVN8hJkjFEL0Q8hIx9xl0AAAAClmUthKhg+oBD4cA6nEKGA2K51XcgwkHYtnZOEEStci/+C/xJwK/b1qGKz6w2ZexSi0ZAFgSqeWR56YIDfnE5j</EncryptedPassword>
+    <History>True|2025-02-12T13:39:11.7273534Z||;True|2025-02-12T17:51:27.6479948+05:00||;True|2025-02-10T17:23:40.0812038+05:00||;True|2025-02-10T17:05:22.8261110+05:00||;True|2025-02-10T15:11:55.5401214+05:00||;False|2025-02-10T15:05:40.6674565+05:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL6033.site4now.net%3bInitial Catalog=db_ab0feb_ecommercedb%3bUser Id=db_ab0feb_ecommercedb_admin%3bPassword=KHalilov#0548</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ECommerceAPI.Data.ECommerceDbContext">
+      <Value>Data Source=SQL6033.site4now.net%3bInitial Catalog=db_ab0feb_ecommercedb%3bUser Id=db_ab0feb_ecommercedb_admin%3bPassword=KHalilov#0548</Value>
+    </EFMigrations>
+  </ItemGroup>
 </Project>

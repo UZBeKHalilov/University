@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ECommerce Shop</title>
+    <!-- Подключаем Tailwind CSS через CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <!-- Шапка сайта -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <!-- Логотип -->
+            <a href="#" class="text-2xl font-bold text-blue-600">ShopName</a>
+            <!-- Навигация -->
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-blue-500 transition">Главная</a></li>
+                    <li><a href="#" class="hover:text-blue-500 transition">Каталог</a></li>
+                    <li><a href="#" class="hover:text-blue-500 transition">О нас</a></li>
+                    <li><a href="#" class="hover:text-blue-500 transition">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Иконка корзины -->
+            <div class="relative">
+                <a href="#" class="text-gray-600 hover:text-blue-500 transition">
+                    <!-- SVG-иконка корзины -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.35 2.7a1 1 0 00.9 1.5h12.9m-16.9 0a1 1 0 001 1h12a1 1 0 001-1m-14 0l1-2" />
+                    </svg>
+                </a>
+                <!-- Количество товаров в корзине -->
+                <span
+                    class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-red-600 rounded-full">3</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Секция "Герой" -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Добро пожаловать в ShopName</h1>
+            <p class="text-lg md:text-xl mb-8">Откройте для себя лучшие предложения и эксклюзивные товары.</p>
+            <a href="#"
+                class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Начать
+                покупки</a>
+        </div>
+    </section>
+
+    <!-- Раздел для динамического контента (категории и продукты) -->
+    <section class="container mx-auto px-4 py-12">
+        <h1 class="text-4xl font-bold text-center mb-8">Ecommerce Frontend</h1>
+
+        <!-- Раздел для категорий -->
+        <div class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Категории</h2>
+            <div id="categoryList" class="flex flex-wrap gap-2">
+                <!-- Кнопки категорий будут созданы динамически -->
+            </div>
+        </div>
+
+        <!-- Раздел для продуктов -->
+        <div>
+            <h2 class="text-2xl font-semibold mb-4">Продукты</h2>
+            <div id="productList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Карточки продуктов будут созданы динамически -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-gray-800 text-gray-200 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 ShopName. Все права защищены.</p>
+            <p class="mt-2 text-sm">Разработка: Ваша компания</p>
+        </div>
+    </footer>
+
+    <script>
+        // Базовый URL вашего API
+        const baseUrl = 'https://uzbekhalilov-001-site1.qtempurl.com';
+
+        // Функция для получения списка продуктов с API с использованием JWT
+        async function fetchProducts() {
+            try {
+                const url = `${baseUrl}/api/v1/products`;
+
+                // 1. Make the fetch request:
+                const response = await fetch(url); // Use await here to pause until the promise resolves.
+
+                // 2. Check if the response is OK (status code in the 200s)
+                if (!response.ok) {
+                    throw new Error(`Ошибка при загрузке продуктов: ${response.status} ${response.statusText}`);
+                }
+
+                // 3. Parse the response body as JSON:
+                const data = await response.json(); // Use await here again.
+
+                return data; // Return the parsed JSON data (an array of products, hopefully).
+
+            } catch (error) {
+                console.error('Ошибка fetchProducts:', error);
+                return [];
+            }
+        }
+
+        // Example of how to use fetchProducts:
+        async function loadProducts() {
+            const products = await fetchProducts()
+            console.log(products)
+        }
+        async function init() {
+            await loadProducts();
+        }
+
+        init()  
+
+        // Функция для получения списка категорий (если API их предоставляет)
+        async function fetchCategories() {
+            try {
+                const url = `${baseUrl}/api/v1/categories`; // Измените при необходимости
+                
+                if (!response.ok) {
+                    throw new Error('Ошибка при загрузке категорий');
+                }
+                return await response.json();
+            } catch (error) {
+                console.error('Ошибка fetchCategories:', error);
+                return [];
+            }
+        }
+
+        // Отображение категорий в виде кнопок
+        function displayCategories(categories) {
+            const categoryList = document.getElementById('categoryList');
+            categoryList.innerHTML = '';
+
+            // Кнопка "Все" для показа всех продуктов
+            const allBtn = document.createElement('button');
+            allBtn.textContent = 'Все';
+            allBtn.className = 'bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded';
+            allBtn.onclick = () => loadProducts();
+            categoryList.appendChild(allBtn);
+
+            // Создание кнопок для каждой категории
+            categories.forEach(category => {
+                const btn = document.createElement('button');
+                btn.textContent = category.name; // Проверьте, что поле соответствует вашему API
+                btn.className = 'bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded';
+                btn.onclick = () => loadProducts(category.id);
+                categoryList.appendChild(btn);
+            });
+        }
+
+        // Отображение продуктов в виде карточек
+        function displayProducts(products) {
+            const productList = document.getElementById('productList');
+            productList.innerHTML = '';
+            products.forEach(product => {
+                // Если изображение отсутствует, используем placeholder
+                const imageUrl = product.imageUrl ? product.imageUrl : 'https://via.placeholder.com/400x300';
+                const card = document.createElement('div');
+                card.className = 'bg-white shadow rounded-lg overflow-hidden hover:shadow-xl transition';
+
+                card.innerHTML = `
+          <img src="${imageUrl}" alt="${product.name}" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col h-full">
+            <h3 class="font-bold text-xl mb-2">${product.name}</h3>
+            <p class="text-gray-600 mb-4 flex-grow">${product.description}</p>
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-blue-600 text-lg">$${product.price}</span>
+              <a href="#" class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 transition">Купить</a>
+            </div>
+          </div>
+        `;
+                productList.appendChild(card);
+            });
+        }
+
+        // Загрузка продуктов с опциональной фильтрацией по categoryId
+        async function loadProducts(categoryId = null) {
+            let products = await fetchProducts();
+            if (categoryId) {
+                products = products.filter(p => p.categoryId === categoryId);
+            }
+            displayProducts(products);
+        }
+
+        // Инициализация: загрузка категорий и продуктов
+        async function init() {
+            const categories = await fetchCategories();
+            if (categories.length > 0) {
+                displayCategories(categories);
+            }
+            loadProducts();
+        }
+
+        window.onload = init;
+    </script>
+</body>
+
+</html>
