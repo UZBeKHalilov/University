@@ -1,0 +1,298 @@
+2025-02-10 14:51:58.730 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 14:51:59.757 +05:00 [INF] Now listening on: https://localhost:7142
+2025-02-10 14:51:59.760 +05:00 [INF] Now listening on: http://localhost:5204
+2025-02-10 14:51:59.872 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 14:51:59.874 +05:00 [INF] Hosting environment: Development
+2025-02-10 14:51:59.879 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI
+2025-02-10 14:52:01.362 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger - null null
+2025-02-10 14:52:01.715 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger - 301 0 null 364.5585ms
+2025-02-10 14:52:01.731 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-02-10 14:52:01.873 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 142.3662ms
+2025-02-10 14:52:01.928 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - null null
+2025-02-10 14:52:01.939 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.css - null null
+2025-02-10 14:52:01.941 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - null null
+2025-02-10 14:52:02.044 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-02-10 14:52:01.945 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.js - null null
+2025-02-10 14:52:01.943 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-10 14:52:02.009 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 14:52:02.086 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-02-10 14:52:02.097 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.js - 200 null application/javascript;charset=utf-8 152.0717ms
+2025-02-10 14:52:02.107 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.css - 200 202 text/css 168.302ms
+2025-02-10 14:52:04.443 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 2433.7998ms
+2025-02-10 14:52:04.447 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-10 14:52:04.449 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-10 14:52:04.454 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - 200 152035 text/css 2525.8379ms
+2025-02-10 14:52:04.455 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 2511.3368ms
+2025-02-10 14:52:04.545 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 2505.6488ms
+2025-02-10 14:52:04.787 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-10 14:52:04.796 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 2854.3947ms
+2025-02-10 14:52:05.382 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-02-10 14:52:05.415 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - null null
+2025-02-10 14:52:05.421 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-10 14:52:05.424 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - 200 628 image/png 8.6251ms
+2025-02-10 14:52:05.433 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.9281ms
+2025-02-10 14:54:08.629 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/User/login - application/json 71
+2025-02-10 14:54:08.739 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2025-02-10 14:54:08.764 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPI.Models.User) on controller ECommerceAPI.Controllers.UserController (ECommerceAPI).
+2025-02-10 14:54:09.825 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 14:54:09.828 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 14:54:09.831 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 14:54:11.983 +05:00 [INF] Executed DbCommand (201ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-02-10 14:54:12.687 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 14:54:12.698 +05:00 [INF] Executed action ECommerceAPI.Controllers.UserController.Login (ECommerceAPI) in 3926.8907ms
+2025-02-10 14:54:12.700 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2025-02-10 14:54:12.705 +05:00 [INF] HTTP POST /api/User/login responded 200 in 4055.3595 ms
+2025-02-10 14:54:12.717 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/User/login - 200 null application/json; charset=utf-8 4087.8461ms
+2025-02-10 14:55:14.363 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/Categories - null null
+2025-02-10 14:55:14.431 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-10 14:55:14.436 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ECommerceAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-10 14:55:14.794 +05:00 [INF] Executed DbCommand (128ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-10 14:55:14.827 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerceAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-10 14:55:14.831 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 391.8455ms
+2025-02-10 14:55:14.833 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-10 14:55:14.835 +05:00 [INF] HTTP GET /api/Categories responded 200 in 461.1992 ms
+2025-02-10 14:55:14.838 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/Categories - 200 null application/json; charset=utf-8 474.6663ms
+2025-02-10 14:55:30.848 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/v1/Products - null null
+2025-02-10 14:55:30.866 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2025-02-10 14:55:30.875 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ECommerceAPI.DTOs.ProductDTO]]] GetProducts() on controller ECommerceAPI.Controllers.ProductsController (ECommerceAPI).
+2025-02-10 14:55:31.154 +05:00 [ERR] Failed executing DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Stock], [c].[Id], [c].[Description], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2025-02-10 14:55:31.193 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Data.ECommerceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+2025-02-10 14:55:31.212 +05:00 [INF] Executed action ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI) in 333.9124ms
+2025-02-10 14:55:31.214 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2025-02-10 14:55:31.217 +05:00 [ERR] HTTP GET /api/v1/Products responded 500 in 354.8246 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ECommerceAPI.Controllers.ProductsController.GetProducts() in C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\Controllers\ProductsController.cs:line 36
+   at lambda_method81(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+2025-02-10 14:55:31.254 +05:00 [ERR] An error occurred while processing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ECommerceAPI.Controllers.ProductsController.GetProducts() in C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\Controllers\ProductsController.cs:line 36
+   at lambda_method81(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ECommerceAPI.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\Middlewares\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+2025-02-10 14:55:31.288 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/v1/Products - 500 null application/json 439.67ms
+2025-02-10 14:55:54.924 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/Categories - null null
+2025-02-10 14:55:54.939 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-10 14:55:54.942 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ECommerceAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-10 14:55:55.066 +05:00 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-10 14:55:55.071 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerceAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-10 14:55:55.073 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 124.44ms
+2025-02-10 14:55:55.075 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-10 14:55:55.077 +05:00 [INF] HTTP GET /api/Categories responded 200 in 139.8286 ms
+2025-02-10 14:55:55.080 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/Categories - 200 null application/json; charset=utf-8 156.3386ms
+2025-02-10 14:57:15.127 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/v1/Products - null null
+2025-02-10 14:57:15.140 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2025-02-10 14:57:15.142 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ECommerceAPI.DTOs.ProductDTO]]] GetProducts() on controller ECommerceAPI.Controllers.ProductsController (ECommerceAPI).
+2025-02-10 14:57:15.283 +05:00 [ERR] Failed executing DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Stock], [c].[Id], [c].[Description], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2025-02-10 14:57:15.291 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ECommerceAPI.Data.ECommerceDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+2025-02-10 14:57:15.321 +05:00 [INF] Executed action ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI) in 176.151ms
+2025-02-10 14:57:15.324 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2025-02-10 14:57:15.328 +05:00 [ERR] HTTP GET /api/v1/Products responded 500 in 187.9123 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ECommerceAPI.Controllers.ProductsController.GetProducts() in C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\Controllers\ProductsController.cs:line 36
+   at lambda_method81(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+2025-02-10 14:57:15.367 +05:00 [ERR] An error occurred while processing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ImageUrl'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ECommerceAPI.Controllers.ProductsController.GetProducts() in C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\Controllers\ProductsController.cs:line 36
+   at lambda_method81(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ECommerceAPI.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\Middlewares\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:025f86f7-48c8-4582-9082-4914665d7729
+Error Number:207,State:1,Class:16
+2025-02-10 14:57:15.406 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/v1/Products - 500 null application/json 279.0141ms
+2025-02-10 15:05:35.469 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:05:35.516 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:05:35.516 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:11:50.514 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:11:50.565 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:11:50.565 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 17:05:14.398 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 17:05:14.450 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 17:05:14.450 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 17:23:33.349 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 17:23:33.396 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 17:23:33.396 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.

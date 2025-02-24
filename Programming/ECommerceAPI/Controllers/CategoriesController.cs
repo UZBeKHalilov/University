@@ -10,7 +10,6 @@ namespace ECommerceAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class CategoriesController : ControllerBase
     {
         private readonly ECommerceDbContext _context;

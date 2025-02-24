@@ -279,3 +279,4 @@ C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Rel
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Release\net9.0\ECommerceAPI.genruntimeconfig.cache
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Release\net9.0\ref\ECommerceAPI.dll
 C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Release\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Release\net9.0\compressed\d8j2skv5lj-98sme8qezc.gz

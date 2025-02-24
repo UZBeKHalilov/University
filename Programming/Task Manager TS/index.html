@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4 text-center">Task Manager</h1>
+        <div class="flex mb-4">
+            <input
+                id="task-input"
+                type="text"
+                placeholder="Enter a task"
+                class="flex-1 p-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <button
+                id="add-task-btn"
+                class="bg-blue-500 text-white p-2 rounded-r-lg hover:bg-blue-600"
+            >
+                Add Task
+            </button>
+        </div>
+        <ul id="task-list" class="list-none"></ul>
+    </div>
+    <!-- Compiled JavaScript -->
+    <script src="./dist/index.js"></script>
+</body>
+</html>
