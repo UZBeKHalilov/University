@@ -7,7 +7,7 @@ const AppDataSource = new DataSource({
     host: 'localhost',
     port: 1433,
     username: 'sa',
-    password: 'your_password',
+    password: 'KHalilov8841',
     database: 'TaskManagerDB',
     entities: [Task], // Entity sinflarni ro'yxatga olish
     synchronize: true, // Development uchun jadvalni avto-yaratish
