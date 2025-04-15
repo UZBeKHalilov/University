@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "/IGKdzlib3m9xE5BqosBL4aJuTW469HTgmw3zmDMYr0=",
+  "Source": "ECommerceAPI",
+  "BasePath": "_content/ECommerceAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerceAPI\\wwwroot",
+      "Source": "ECommerceAPI",
+      "ContentRoot": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\wwwroot\\images\\e7ebc708-67ff-425d-aac1-3ac926170313.png",
+      "SourceId": "ECommerceAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\wwwroot\\",
+      "BasePath": "_content/ECommerceAPI",
+      "RelativePath": "images/e7ebc708-67ff-425d-aac1-3ac926170313#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "shrgvek0n6",
+      "Integrity": "0FmYa6JzAJXsasCFjY536AADtvzNbxlb04/Z54yTIhY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e7ebc708-67ff-425d-aac1-3ac926170313.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/e7ebc708-67ff-425d-aac1-3ac926170313.png",
+      "AssetFile": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\wwwroot\\images\\e7ebc708-67ff-425d-aac1-3ac926170313.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FmYa6JzAJXsasCFjY536AADtvzNbxlb04/Z54yTIhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 03:49:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FmYa6JzAJXsasCFjY536AADtvzNbxlb04/Z54yTIhY="
+        }
+      ]
+    },
+    {
+      "Route": "images/e7ebc708-67ff-425d-aac1-3ac926170313.shrgvek0n6.png",
+      "AssetFile": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\wwwroot\\images\\e7ebc708-67ff-425d-aac1-3ac926170313.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FmYa6JzAJXsasCFjY536AADtvzNbxlb04/Z54yTIhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 03:49:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "shrgvek0n6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/e7ebc708-67ff-425d-aac1-3ac926170313.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FmYa6JzAJXsasCFjY536AADtvzNbxlb04/Z54yTIhY="
+        }
+      ]
+    }
+  ]
+}
