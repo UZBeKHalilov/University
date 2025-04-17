@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,10 +34,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abdulloh\\Downloads\\Telegram Desktop\\Program (8).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|c:\\users\\abdulloh\\desktop\\github\\pdp-university\\programming\\ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4AB39D57-87F7-44D7-9FBA-0A1BF3B392F4}|ECommerceAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -41,21 +49,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAI4AAAAgZ2ZmZuYswJsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAACgAAAAAIApwJsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T05:14:18.203Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -63,19 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserNotFound.cs",
-              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Helpers\\UserNotFound.cs",
-              "RelativeDocumentMoniker": "Helpers\\UserNotFound.cs",
-              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Helpers\\UserNotFound.cs",
-              "RelativeToolTip": "Helpers\\UserNotFound.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAABoAAABgzMzMzIwjwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T10:00:54.846Z"
+              "WhenOpened": "2025-02-17T10:49:34.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program (8).cs",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Downloads\\Telegram Desktop\\Program (8).cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Telegram Desktop\\Program (8).cs",
@@ -87,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
@@ -99,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ECommerceAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\ECommerceAPI.csproj",
               "RelativeDocumentMoniker": "ECommerceAPI.csproj",
@@ -111,7 +119,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAMwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T13:09:44.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserNotFound.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Helpers\\UserNotFound.cs",
+              "RelativeDocumentMoniker": "Helpers\\UserNotFound.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Helpers\\UserNotFound.cs",
+              "RelativeToolTip": "Helpers\\UserNotFound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:00:54.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T10:48:39.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -123,19 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T13:09:44.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ProductsV2Controller.cs",
               "DocumentMoniker": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\Controllers\\ProductsV2Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsV2Controller.cs",

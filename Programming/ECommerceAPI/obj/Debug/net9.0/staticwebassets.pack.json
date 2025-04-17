@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\images\\e7ebc708-67ff-425d-aac1-3ac926170313.png"
     },
     {
+      "Id": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\ECommerceAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ECommerceAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

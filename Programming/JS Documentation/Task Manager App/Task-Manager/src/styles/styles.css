@@ -1,0 +1,87 @@
+body {
+    background-color: #f3f4f6; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.container {
+    max-width: 600px; /* Maximum width for the task manager */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    font-size: 2rem; /* Font size for the title */
+    color: #1f2937; /* Dark gray color for the title */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.input-container {
+    display: flex; /* Flexbox for input and button */
+    margin-bottom: 20px; /* Space below the input container */
+}
+
+input[type="text"] {
+    flex: 1; /* Take up available space */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #d1d5db; /* Light gray border */
+    border-radius: 4px 0 0 4px; /* Rounded corners for the left side */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="text"]:focus {
+    border-color: #3b82f6; /* Blue border on focus */
+}
+
+button {
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #3b82f6; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 0 4px 4px 0; /* Rounded corners for the right side */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    padding: 10px; /* Padding for each task item */
+    border-bottom: 1px solid #e5e7eb; /* Light gray border between tasks */
+    display: flex; /* Flexbox for task item */
+    justify-content: space-between; /* Space between task text and delete button */
+    align-items: center; /* Center items vertically */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.task-title {
+    flex: 1; /* Take up available space */
+}
+
+.delete-btn {
+    background-color: #ef4444; /* Red background for delete button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.delete-btn:hover {
+    background-color: #dc2626; /* Darker red on hover */
+}

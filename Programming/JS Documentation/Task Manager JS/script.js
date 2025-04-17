@@ -78,3 +78,21 @@ pendingBtn.addEventListener('click', () => renderTasks('pending'));
 completedBtn.addEventListener('click', () => renderTasks('completed'));
 
 renderTasks();
+
+// Select all filter buttons
+const filterButtons = document.querySelectorAll('#allBtn, #pendingBtn, #completedBtn');
+
+// Add click event listeners to each button
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Reset styles for all buttons
+    filterButtons.forEach(btn => {
+      btn.classList.remove('bg-violet-600', 'text-white');
+      btn.classList.add('bg-gray-100', 'hover:bg-gray-200', 'text-gray-700');
+    });
+
+    // Apply active styles to the clicked button
+    button.classList.remove('bg-gray-100', 'hover:bg-gray-200', 'text-gray-700');
+    button.classList.add('bg-violet-600', 'text-white');
+  });
+});

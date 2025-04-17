@@ -1,0 +1,3 @@
+C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\wwwroot\index.html
+wwwroot\images\e7ebc708-67ff-425d-aac1-3ac926170313.png
+wwwroot\index.html
