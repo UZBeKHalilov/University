@@ -10,6 +10,8 @@ using System.Security.Claims;
 using System.Text;
 using BCrypt;
 using ECommerceAPI.Models;
+using ECommerceAPI.DTOs;
+using AutoMapper;
 
 namespace ECommerceAPI.Controllers
 {
@@ -19,25 +21,28 @@ namespace ECommerceAPI.Controllers
     {
         private readonly ECommerceDbContext _context;
         private readonly AuthSettings _authSettings;
+        private readonly IMapper _mapper;
 
-        public UserController(ECommerceDbContext context, IOptions<AuthSettings>
-        authSettings)
+        public UserController(ECommerceDbContext context, IOptions<AuthSettings> authSettings, IMapper mapper)
         {
             _context = context;
             _authSettings = authSettings.Value;
+            _mapper = mapper;
         }
 
         // POST: api/User/register
         [HttpPost("register")]
-        public async Task<IActionResult> Register(User user)
+        public async Task<IActionResult> Register(UserCreateDTO userDto)
         {
-            if (await _context.Users.AnyAsync(u => u.Username == user.Username))
+            if (await _context.Users.AnyAsync(u => u.Username == userDto.Username))
             {
                 return BadRequest("Username already exists.");
             }
 
-            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
-            user.Role = string.IsNullOrEmpty(user.Role) ? "Customer" : user.Role;
+            userDto.PasswordHash = BCrypt.Net.BCrypt.HashPassword(userDto.PasswordHash);
+            userDto.Role = string.IsNullOrEmpty(userDto.Role) ? "Customer" : userDto.Role;
+
+            var user = _mapper.Map<User>(userDto);           
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
@@ -47,12 +52,12 @@ namespace ECommerceAPI.Controllers
 
         // POST: api/User/login
         [HttpPost("login")]
-        public async Task<IActionResult> Login(User user)
+        public async Task<IActionResult> Login(UserCreateDTO userDto)
         {
             var dbUser = await _context.Users.SingleOrDefaultAsync(u => u.Username ==
-            user.Username);
+            userDto.Username);
 
-            if (dbUser == null || !BCrypt.Net.BCrypt.Verify(user.PasswordHash,
+            if (dbUser == null || !BCrypt.Net.BCrypt.Verify(userDto.PasswordHash,
             dbUser.PasswordHash))
             {
                 return Unauthorized("Invalid username or password.");

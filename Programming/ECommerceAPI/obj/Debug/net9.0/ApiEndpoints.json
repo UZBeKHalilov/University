@@ -314,8 +314,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "ECommerceAPI.Models.User",
+        "Name": "userDto",
+        "Type": "ECommerceAPI.DTOs.UserCreateDTO",
         "IsRequired": true
       }
     ],
@@ -330,8 +330,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "ECommerceAPI.Models.User",
+        "Name": "userDto",
+        "Type": "ECommerceAPI.DTOs.UserCreateDTO",
         "IsRequired": true
       }
     ],

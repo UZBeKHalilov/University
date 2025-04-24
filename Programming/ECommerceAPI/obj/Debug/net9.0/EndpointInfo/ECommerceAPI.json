@@ -961,17 +961,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             }
           }
@@ -992,17 +992,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UserCreateDTO"
               }
             }
           }
@@ -1124,7 +1124,7 @@
       "CustomerDTO": {
         "type": "object",
         "properties": {
-          "id": {
+          "userId": {
             "type": "integer",
             "format": "int32"
           },
@@ -1372,13 +1372,9 @@
         },
         "additionalProperties": false
       },
-      "User": {
+      "UserCreateDTO": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "username": {
             "type": "string",
             "nullable": true
