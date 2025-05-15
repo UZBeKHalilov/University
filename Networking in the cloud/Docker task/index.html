@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assignment Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Assignment Submission Portal</h1>
+  </header>
+
+  <main>
+    <section class="assignment-form">
+      <h2>Submit Your Assignment</h2>
+      <form id="submitForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" required>
+
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="instructions">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Submit only PDF or DOCX files.</li>
+        <li>Ensure your name and subject are correct.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Assignment Portal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# 1. Base image
+FROM nginx:alpine
+
+# 2. HTML fayllarni ko‘chirish
+COPY . /usr/share/nginx/html
+
+# 3. Port
+EXPOSE 80
