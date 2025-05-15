@@ -9,6 +9,7 @@ namespace ECommerceAPI.Profiles
         public UserProfile()
         {
             CreateMap<UserCreateDTO, User>();
+            //CreateMap<UserLoginDTO, User>();
         }
     }
 }

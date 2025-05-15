@@ -29,6 +29,38 @@ namespace ECommerceAPI.Controllers
             return Ok(_mapper.Map<IEnumerable<CategoryDTO>>(categories));
         }
 
+        // GET : api/Categories/with-products
+        [HttpGet("with-products")]
+        public async Task<ActionResult<IEnumerable<CategoryWithProductsDTO>>> GetCategoriesWithProducts()
+        {
+            var categories = await _context.Categories
+                .Include(c => c.Products)
+                .ToListAsync();
+            return Ok(_mapper.Map<IEnumerable<CategoryWithProductsDTO>>(categories));
+        }
+
+        // GET : api/Categories/by-name/{name}
+        [HttpGet("by-name/{name}")]
+        public async Task<ActionResult<CategoryDTO>> GetCategoryByName(string name)
+        {
+            // Formatting name
+            name = name.ToLower().Trim().Replace("-", " ");
+
+
+            var category = await _context.Categories
+                .Include(c => c.Products)
+                .FirstOrDefaultAsync(c => c.Name == name);
+
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            return _mapper.Map<CategoryDTO>(category);
+        }
+
+
+
         // GET : api/Categories/5
         [HttpGet("{id}")]
         public async Task<ActionResult<CategoryDTO>> GetCategory(int id)
@@ -64,7 +96,7 @@ namespace ECommerceAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCategory(int id, CategoryUpdateDTO categoryDto)
         {
-            var category = await _context.Categories.FindAsync(id);
+            var category = await _context.Categories.FindAsync(id);// 
             if (category == null)
             {
                 return NotFound();
@@ -90,6 +122,7 @@ namespace ECommerceAPI.Controllers
 
             return NoContent();
         }
+       
         // DELETE: api/Categories/5
         [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
@@ -111,5 +144,6 @@ namespace ECommerceAPI.Controllers
         {
             return _context.Categories.Any(e => e.Id == id);
         }
+        
     }
 }

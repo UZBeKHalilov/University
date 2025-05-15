@@ -65,6 +65,8 @@ namespace ECommerceAPI.Controllers
             return _mapper.Map<ProductDTO>(product);
         }
 
+
+
         // GET: api/Products/search
         [HttpGet("search")]
         public async Task<ActionResult<PaginatedList<ProductDTO>>> SearchProducts(

@@ -1,0 +1,87 @@
+2025-05-13 10:59:53.503 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-13 10:59:54.229 +05:00 [INF] Now listening on: https://localhost:7142
+2025-05-13 10:59:54.232 +05:00 [INF] Now listening on: http://localhost:5204
+2025-05-13 10:59:54.331 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-13 10:59:54.332 +05:00 [INF] Hosting environment: Development
+2025-05-13 10:59:54.334 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI
+2025-05-13 15:39:58.460 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-13 15:39:58.901 +05:00 [INF] Now listening on: https://localhost:7142
+2025-05-13 15:39:58.904 +05:00 [INF] Now listening on: http://localhost:5204
+2025-05-13 15:39:58.967 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-13 15:39:58.969 +05:00 [INF] Hosting environment: Development
+2025-05-13 15:39:58.970 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI
+2025-05-13 15:40:13.496 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-05-13 15:40:13.770 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 278.9846ms
+2025-05-13 15:40:13.850 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - null null
+2025-05-13 15:40:13.852 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.css - null null
+2025-05-13 15:40:13.854 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - null null
+2025-05-13 15:40:13.940 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.js - null null
+2025-05-13 15:40:13.909 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-13 15:40:13.968 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-13 15:40:13.991 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-05-13 15:40:13.990 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.js - 200 null application/javascript;charset=utf-8 49.7393ms
+2025-05-13 15:40:14.023 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.css - 200 202 text/css 171.3287ms
+2025-05-13 15:40:14.026 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-13 15:40:14.028 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 85.8178ms
+2025-05-13 15:40:14.029 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-13 15:40:14.042 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - 200 152035 text/css 191.5843ms
+2025-05-13 15:40:14.048 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 138.7894ms
+2025-05-13 15:40:14.230 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-05-13 15:40:14.242 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-13 15:40:14.249 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 395.5431ms
+2025-05-13 15:40:14.323 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.0275ms
+2025-05-13 15:40:14.522 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-05-13 15:40:14.561 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.1443ms
+2025-05-13 15:40:21.890 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/Categories - null null
+2025-05-13 15:40:22.013 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-05-13 15:40:22.033 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ECommerceAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-05-13 15:40:26.010 +05:00 [INF] Executed DbCommand (232ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-05-13 15:40:26.132 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerceAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-13 15:40:26.148 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 4106.8095ms
+2025-05-13 15:40:26.152 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-05-13 15:40:26.160 +05:00 [INF] HTTP GET /api/Categories responded 200 in 4243.5807 ms
+2025-05-13 15:40:26.171 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/Categories - 200 null application/json; charset=utf-8 4281.3531ms
+2025-05-13 16:03:09.423 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-13 16:03:09.852 +05:00 [INF] Now listening on: https://localhost:7142
+2025-05-13 16:03:09.855 +05:00 [INF] Now listening on: http://localhost:5204
+2025-05-13 16:03:09.955 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-13 16:03:09.957 +05:00 [INF] Hosting environment: Development
+2025-05-13 16:03:09.961 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI
+2025-05-13 16:49:38.444 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-13 16:49:39.027 +05:00 [INF] Now listening on: https://localhost:7142
+2025-05-13 16:49:39.030 +05:00 [INF] Now listening on: http://localhost:5204
+2025-05-13 16:49:39.109 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-13 16:49:39.111 +05:00 [INF] Hosting environment: Development
+2025-05-13 16:49:39.113 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI
+2025-05-13 16:49:46.201 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-05-13 16:49:46.450 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 254.3706ms
+2025-05-13 16:49:46.519 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.js - null null
+2025-05-13 16:49:46.519 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-13 16:49:46.519 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-05-13 16:49:46.526 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.js - 200 null application/javascript;charset=utf-8 7.1942ms
+2025-05-13 16:49:46.589 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 70.5825ms
+2025-05-13 16:49:46.631 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.3604ms
+2025-05-13 16:49:46.850 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-05-13 16:49:46.869 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - null null
+2025-05-13 16:49:46.885 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-13 16:49:46.888 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - 200 628 image/png 19.4872ms
+2025-05-13 16:49:46.922 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.2077ms
+2025-05-13 16:49:53.519 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/Categories - null null
+2025-05-13 16:49:53.723 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-05-13 16:49:53.742 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ECommerceAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-05-13 16:49:57.509 +05:00 [INF] Executed DbCommand (245ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-05-13 16:49:57.630 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerceAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-13 16:49:57.644 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 3894.1353ms
+2025-05-13 16:49:57.648 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-05-13 16:49:57.654 +05:00 [INF] HTTP GET /api/Categories responded 200 in 3997.3707 ms
+2025-05-13 16:49:57.666 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/Categories - 200 null application/json; charset=utf-8 4147.7358ms
+2025-05-13 16:52:52.315 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-13 16:52:52.634 +05:00 [INF] Now listening on: https://localhost:7142
+2025-05-13 16:52:52.636 +05:00 [INF] Now listening on: http://localhost:5204
+2025-05-13 16:52:52.694 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-13 16:52:52.696 +05:00 [INF] Hosting environment: Development
+2025-05-13 16:52:52.697 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI

@@ -32,7 +32,9 @@ namespace ECommerceAPI.Profiles
                 .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.ImageUrl));
 
             CreateMap<Product, ProductDTO>();
-            CreateMap<Category, CategoryDTO>();
+
+            CreateMap<ProductNoCategoryDTO, Product>();
+            CreateMap<Product, ProductNoCategoryDTO>();
         }
 
 

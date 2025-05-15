@@ -52,26 +52,34 @@ namespace ECommerceAPI.Controllers
 
         // POST: api/User/login
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserCreateDTO userDto)
+        public async Task<IActionResult> Login(UserLoginDTO userDto)
         {
-            var dbUser = await _context.Users.SingleOrDefaultAsync(u => u.Username ==
-            userDto.Username);
-
-            if (dbUser == null || !BCrypt.Net.BCrypt.Verify(userDto.PasswordHash,
-            dbUser.PasswordHash))
+            try
             {
-                return Unauthorized("Invalid username or password.");
-            }
+                var dbUser = await _context.Users.SingleOrDefaultAsync(u => u.Username ==
+                userDto.Username);
 
-            var token = GenerateJwtToken(dbUser);
-            return Ok(new { Token = token });
+                if (dbUser == null || !BCrypt.Net.BCrypt.Verify(userDto.PasswordHash,
+                dbUser.PasswordHash))
+                {
+                    return Unauthorized("Invalid username or password.");
+                }
+
+                var token = GenerateJwtToken(dbUser);
+                return Ok(new { Token = token });   
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
         }
 
         private string GenerateJwtToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.UTF8.GetBytes(_authSettings.Secret);
-
+            Console.WriteLine($"---------------------UserName: {user.Username} | Role: {user.Role}---------------------");
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
