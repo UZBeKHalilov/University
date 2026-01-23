@@ -1,0 +1,14 @@
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\bin\Debug\net10.0\Abstract Pattern.exe
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\bin\Debug\net10.0\Abstract Pattern.deps.json
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\bin\Debug\net10.0\Abstract Pattern.runtimeconfig.json
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\bin\Debug\net10.0\Abstract Pattern.dll
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\bin\Debug\net10.0\Abstract Pattern.pdb
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\Abstract Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\Abstract Pattern.AssemblyInfoInputs.cache
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\Abstract Pattern.AssemblyInfo.cs
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\Abstract Pattern.csproj.CoreCompileInputs.cache
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\Abstract Pattern.dll
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\refint\Abstract Pattern.dll
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\Abstract Pattern.pdb
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\Abstract Pattern.genruntimeconfig.cache
+C:\Users\khali\OneDrive\Desktop\University\Abstract Pattern\obj\Debug\net10.0\ref\Abstract Pattern.dll

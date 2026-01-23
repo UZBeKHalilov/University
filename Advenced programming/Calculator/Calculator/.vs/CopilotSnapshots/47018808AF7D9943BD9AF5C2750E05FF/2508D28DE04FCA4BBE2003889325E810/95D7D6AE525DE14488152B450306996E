@@ -1,0 +1,16 @@
+﻿namespace Calculator
+{
+    internal class Program
+    {
+        /// <summary>
+        /// Calculator
+        /// 1) Procedure
+        /// 2) Imperative
+        /// </summary>
+        /// <param name="args"></param>
+        static void Main(string[] args)
+        {
+            
+        }
+    }
+}
