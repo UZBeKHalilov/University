@@ -1,0 +1,15 @@
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\bin\Debug\net10.0\SalesManagment.exe
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\bin\Debug\net10.0\SalesManagment.deps.json
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\bin\Debug\net10.0\SalesManagment.runtimeconfig.json
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\bin\Debug\net10.0\SalesManagment.dll
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\bin\Debug\net10.0\SalesManagment.pdb
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.GeneratedMSBuildEditorConfig.editorconfig
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.AssemblyInfoInputs.cache
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.AssemblyInfo.cs
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.csproj.CoreCompileInputs.cache
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.sourcelink.json
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.dll
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\refint\SalesManagment.dll
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.pdb
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\SalesManagment.genruntimeconfig.cache
+D:\program files\Рабочий стол\University\Course - 3\Data Structure & Algoritms\SalesManagment\obj\Debug\net10.0\ref\SalesManagment.dll

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qA4JPhO6CP9OBj+izMZFkBLRy7gO3i6yj9sF5E7Wq866VpNTGVR3tUCWsMHiomUkiA17EkHQU+p6fB2s/SXwGw==",
+  "dgSpecHash": "pUmOTuZV/AY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\SelfStudy\\SelfStudy.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\program files\\Рабочий стол\\University\\Programming\\SelfStudy\\SelfStudy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

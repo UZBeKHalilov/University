@@ -1,0 +1,15 @@
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\bin\Debug\net10.0\BrowserHistory.exe
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.GeneratedMSBuildEditorConfig.editorconfig
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.AssemblyInfoInputs.cache
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.AssemblyInfo.cs
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.csproj.CoreCompileInputs.cache
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.sourcelink.json
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.dll
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\refint\BrowserHistory.dll
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.pdb
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\bin\Debug\net10.0\BrowserHistory.deps.json
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\bin\Debug\net10.0\BrowserHistory.runtimeconfig.json
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\bin\Debug\net10.0\BrowserHistory.dll
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\bin\Debug\net10.0\BrowserHistory.pdb
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\BrowserHistory.genruntimeconfig.cache
+D:\program files\Рабочий стол\University\3 - Course 6- Session\Data structure\BrowserHistory\obj\Debug\net10.0\ref\BrowserHistory.dll

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ShnNPV0Myu8=",
+  "dgSpecHash": "AdCwMAIzOAM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\Background Calculation\\Background Calculation.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\program files\\Рабочий стол\\University\\Programming\\Background Calculation\\Background Calculation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eE9PInp4L9ZPfes3frTodlXd5cR2nDalNdshpV3sfkPkYFyv1FsgPDwYghwyz0QK1ZfPcaEKpJhUjvAsIGXuKQ==",
+  "dgSpecHash": "qXluv7YO4+4=",
   "success": true,
-  "projectFilePath": "E:\\program files\\repos\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\program files\\Рабочий стол\\University\\Programming\\Calculator\\Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\khali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

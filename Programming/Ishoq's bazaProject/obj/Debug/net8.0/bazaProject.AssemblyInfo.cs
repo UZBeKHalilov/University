@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bazaProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76fa6bb5566aed8eb4c590bd05b4ec2250f36a05")]
 [assembly: System.Reflection.AssemblyProductAttribute("bazaProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bazaProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

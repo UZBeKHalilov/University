@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net9.0": {
       "BouncyCastle.Cryptography/2.3.1": {
@@ -1609,23 +1609,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abdulloh\\.nuget\\packages\\": {},
+    "C:\\Users\\khali\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\bruteforce\\bruteforce.csproj",
+      "projectUniqueName": "D:\\program files\\Рабочий стол\\University\\Programming\\bruteforce\\bruteforce.csproj",
       "projectName": "bruteforce",
-      "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\bruteforce\\bruteforce.csproj",
-      "packagesPath": "C:\\Users\\Abdulloh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\bruteforce\\obj\\",
+      "projectPath": "D:\\program files\\Рабочий стол\\University\\Programming\\bruteforce\\bruteforce.csproj",
+      "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
+      "outputPath": "D:\\program files\\Рабочий стол\\University\\Programming\\bruteforce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Abdulloh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1638,6 +1638,7 @@
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -1652,10 +1653,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net9.0": {
+        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "MySql.Data": {
@@ -1674,12 +1676,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.16, 9.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.16, 9.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.16, 9.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.16, 9.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

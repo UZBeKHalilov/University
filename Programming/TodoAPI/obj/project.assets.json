@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Humanizer/2.14.1": {
@@ -6647,19 +6647,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abdulloh\\.nuget\\packages\\": {}
+    "C:\\Users\\khali\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\TodoAPI\\TodoAPI.csproj",
+      "projectUniqueName": "D:\\program files\\Рабочий стол\\University\\Programming\\TodoAPI\\TodoAPI.csproj",
       "projectName": "TodoAPI",
-      "projectPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\TodoAPI\\TodoAPI.csproj",
-      "packagesPath": "C:\\Users\\Abdulloh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdulloh\\Desktop\\GitHub\\PDP-University\\Programming\\TodoAPI\\obj\\",
+      "projectPath": "D:\\program files\\Рабочий стол\\University\\Programming\\TodoAPI\\TodoAPI.csproj",
+      "packagesPath": "C:\\Users\\khali\\.nuget\\packages\\",
+      "outputPath": "D:\\program files\\Рабочий стол\\University\\Programming\\TodoAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Abdulloh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6667,11 +6672,11 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -6685,10 +6690,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.InMemory": {
@@ -6721,6 +6728,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.27, 8.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6729,7 +6754,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
