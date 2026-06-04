@@ -42,6 +42,11 @@ Debug/
 Release/
 TestResults/
 publish/
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
 
 # NuGet
 .nuget/packages/
@@ -160,7 +165,7 @@ temp/
 
 
 # C# :
-
+/obj
 
 
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
