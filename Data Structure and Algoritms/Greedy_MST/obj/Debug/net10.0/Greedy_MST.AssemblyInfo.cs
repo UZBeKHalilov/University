@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Greedy_MST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d45fafa43c9b4f2fd42b2b1b8c3c853bcd0a322")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fa7bfd0d284390cfbee6a597b111c6aed809cd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Greedy_MST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Greedy_MST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
