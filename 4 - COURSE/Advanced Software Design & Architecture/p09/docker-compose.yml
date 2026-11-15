@@ -1,0 +1,21 @@
+# The hotel booking app's database and cache. Start: docker compose up -d   Stop: docker compose down
+services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: hotel
+      POSTGRES_USER: hotel
+      POSTGRES_PASSWORD: hotel       # for your laptop only
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro   # runs once, on the first start
+      - hotel-data:/var/lib/postgresql                          # the data survives a restart
+
+  cache:
+    image: redis:8
+    ports:
+      - "6379:6379"                  # P08: copies of search answers, nothing that must survive
+
+volumes:
+  hotel-data:

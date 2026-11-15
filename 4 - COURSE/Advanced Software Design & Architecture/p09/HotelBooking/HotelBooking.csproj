@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web"><PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup><ItemGroup>
+  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+  <PackageReference Include="StackExchange.Redis" Version="3.4.20" />
+  <!-- The API serves the contract: the build copies docs/openapi.yaml next to the program. -->
+  <None Include="..\docs\openapi.yaml" Link="openapi.yaml" CopyToOutputDirectory="PreserveNewest" />
+</ItemGroup></Project>
